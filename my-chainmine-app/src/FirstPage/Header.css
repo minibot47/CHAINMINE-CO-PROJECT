@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(2, 37, 39);
+    height: 50vh;
+
+}
+header{
+    background-color: red;
+    width: 100%; 
+    position: fixed;
+
+}
+.headerContainer{
+    padding: 3px 8px;
+
+}
+
+.topLayer{
+    background-color: rgb(0,67,70);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: .75rem;
+
+}
+.statistics{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+
+select{
+    color: white;
+    padding: 6px 12px;
+    width: 100px;
+    border-radius: 2px;
+    border: 1px solid white;
+
+    background-color: darkblue;
+}
+
+.secondLayer{
+    background-color: rgb(30, 211, 243);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+
+}
+.navigate{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.navigate button{
+    padding: 3px 6px;
+    max-height:25px;
+
+}
+
+.signUpIn{
+    display: flex;
+    gap: 1.5rem;
+
+
+}
+.signUpIn button{
+    padding: 7px 13px;
+    width: 130px;
+    border-radius: 3.5px;
+    border: none;
+}
+
+#signin{
+    background-color: darkgreen;
+}
+#signup{
+    background-color: lightgreen;
+}
