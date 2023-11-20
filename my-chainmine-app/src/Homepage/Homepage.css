@@ -1,0 +1,312 @@
+.homepage{
+    color: white;
+    width: 100%;display: flex;
+    padding-top: 8%;
+
+
+}
+.left-nav{
+    background-color: white;
+    width: 20%;
+    height: 230vh;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    position: fixed;
+
+
+}
+.left-nav li{
+    font-size: 20px;
+    margin-top: 5%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 80%;
+
+}
+.left-nav li:hover{
+    background-color: rgba(107, 227, 221, 0.165) ;
+}
+
+
+.left-nav ul{
+    list-style-type: none;
+    margin-top: 30%;
+
+}
+
+.right{
+    background-color: rgb(167, 224, 224);
+    width: 80%;
+    height: 230vh;
+    padding-left: 20%;
+
+}
+.top-promotion{
+    font-size: 20px;
+    background: rgb(159,224,185);
+    background: linear-gradient(90deg, rgba(159,224,185,1) 3%, rgba(31,196,151,1) 29%, rgba(30,131,102,1) 49%, rgba(182,230,211,1) 70%, rgba(225,250,255,1) 86%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2%;
+}
+.top-promotion span,input,button{
+    margin: 10px;
+}
+.top-promotion button{
+    background-color: yellow;
+    color: black;
+    outline: none;
+    border: 1px none transparent;
+    padding: 8px;
+    width: 10%;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.right span{
+    color: blue;
+    text-decoration:underline
+}
+
+.dashboard {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.dashboard h1{
+    color: darkslategray;
+}
+.congratulations{
+    background-color: rgb(199, 199, 37);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    outline: 1px dotted green;
+    margin-top: 3%;
+
+}
+.congratulations span,button{
+    margin: 8px;
+}
+.congratulations span{
+    color: darkslategray;
+}
+.congratulations button{
+    background-color: darkslategray;
+    color: white;
+    outline: none;
+    border: 1px none transparent;
+    padding: 8px;
+    width: 15%;
+    font-size: 15px;
+    cursor: pointer;
+}
+.userinfo{
+    height: 200px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 3%;
+    box-shadow: 5px black;
+    border-radius: 1rem;
+    box-shadow: 10px 8px 20px 0px rgba(0, 0, 0, 0.314);
+
+    
+}
+.personalinfo{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    color: black;
+    margin-left: -20%;
+}
+.machineinfo{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    color: black;
+    font-size: 10px;
+}
+.mining{
+    display: flex;
+    color: white;
+}
+.miningleft{
+    width: 250px;
+    margin: 2%;
+    margin-left: 0;
+
+}
+.miningright{
+    width: 500px;
+    height: 300px;
+    margin-left:0;
+    display: block;
+    align-items: center;
+    justify-content: left;
+}
+.mined h3{
+    color: black;
+    padding: 0;
+    margin: 0;
+
+}
+
+.total{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left; */
+    border-radius: 1rem;
+    width: 250px;
+    height: 100px;
+    background-color: green;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.total h2{
+    margin: 0;
+    font-size: 20px;
+
+}
+.profit{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left; */
+    border-radius: 1rem;
+    width: 250px;
+    height: 80px;
+    color: rgb(30, 108, 30);
+    margin-top: 20px;
+}
+.profit h2{
+    margin: 0;
+    font-size: 20px;
+
+}
+.referralinput{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    margin-left:0;
+}
+.referralinput input{
+    width: 100%;
+    height: 35px;
+    margin-top: 0;
+    padding-left: 10px;
+
+}
+.miningright button{
+    width: 30%;
+    height: 10%;
+    background-color: rgb(25, 92, 92);font-size: 20px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}    
+.miningright button,h3{
+    margin-left: 8%;
+}
+.future{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.futuremining{
+    background-color: white;
+    color: black;
+    width: 90%;
+    height: 220px;
+    padding: 50px;
+    border-radius: 1rem;
+    box-shadow: 10px 8px 20px 0px rgba(0, 0, 0, 0.314);
+    display: flex;
+}
+
+.futureminingleft {
+    width: 40%;
+    border-right: 1px solid black;
+    padding-right: 15px;
+}
+.futureminingleft h2 {
+    text-align: center;
+    font-size: 20px;
+}
+.futureminingleft select , option {
+    text-align: center;
+    font-size: 18px;
+    background-color: white;
+    color: green;
+}
+
+.amount{
+    display: flex;
+    align-items: center;
+}
+.amount input{
+    width: 50%;
+    height: 30px;
+}
+.divide{ 
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.futureminingleft h3{
+    font-size: 15px;
+    margin: 0%;
+    margin-top: 1%;
+}
+.futureminingleft h2{
+    margin-left: 8%;
+    margin-top: 0 ;
+    font-size: 17px;
+
+}
+
+.futureminingright{
+    width: 50%;
+    height: 250px;
+}
+.futureminingright h2{
+    margin-left: 3%;
+    margin-top: 0 ;
+    font-size: 17px;
+
+}
+
+.estimate{
+    margin-left: -10%;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0;
+}
+.estimate h3{
+    margin: 1%;
+    margin-left: 10%;
+    margin-top: 3%;
+
+}
+.estimate1{
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -5%;
+    margin-right: 3%; 
+}
+.futureminingright hr{
+    margin: 0%;
+}
