@@ -3,9 +3,10 @@ body{
 
 }
 header{
-    background-color: rgb(58, 33, 33);
+    /* background-color: rgb(58, 33, 33); */
     width: 100%; 
     position: fixed;
+    z-index: 1;
 
 }
 .headerContainer{
@@ -36,11 +37,11 @@ select{
     border-radius: 2px;
     border: 1px solid white;
 
-    background-color: darkblue;
+    background-color: rgb(18, 114, 77);
 }
 
 .secondLayer{
-    background-color: rgb(30, 211, 243);
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,6 +59,9 @@ select{
     padding: 3px 6px;
     max-height:25px;
     cursor: pointer;
+    background-color: rgb(245, 245, 21);
+    border-radius: 3px;
+    border: 0.5px solid grey;
 
 }
 

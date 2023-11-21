@@ -1,5 +1,5 @@
 .section01Container{
-    background-color: orangered;
+    background-color: rgb(48, 136, 77);
     width: 100%;
     height: 98vh;
     display: flex;
@@ -29,8 +29,296 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    z-index: 0;
 }
 .section01Checkbox input{
     transform: scale(2);
 
+}
+
+.section02Button{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.section02Button button{
+    padding: 9px 18px;
+    width: 160px;
+    border-radius: 3.5px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-top: -20px;
+    
+}
+
+#login{
+    background-color: darkgreen;
+    color: white;
+}
+#startnow{
+    background-color: rgb(144, 238, 144);
+    color: darkgreen;
+}
+.section02Review{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.Reviewcontent{
+    margin-top: 10px;
+    background-color: yellow;
+    padding: 10px 14px;
+    width: 25%;
+    border-radius: 5px;
+    text-align: center;
+}
+.Reviewcontent p{
+    margin: 0;
+}
+.section02Flex01{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: aqua; */
+    margin-bottom: 100px;
+}
+.flex011{
+    width: 30%;
+    text-align: center;
+    color: rgb(156, 154, 154);
+
+}
+.flex012{
+    width: 29%;
+    text-align: center;
+    color: rgb(156, 154, 154);
+
+}
+.flex013{
+    width: 29%;
+    text-align: center;
+    color: rgb(156, 154, 154);
+
+}
+.section02Flex01 h2{
+    color: rgb(25, 80, 53);
+}
+.minerContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rebeccapurple; */
+}
+.minerContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 8px 0;
+    border: 4px dashed yellow;
+}
+.minerBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    /* background-color: cornflowerblue; */
+
+}
+.minerLeft{
+    flex: 2;
+
+}
+.minerRight{
+    flex: 1;
+    text-align: center;
+
+}
+.minerRight button{
+    padding: 9px 18px;
+    width: 130px;
+    border-radius: 3.5px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+#minersignup{
+    background-color: lightgreen;
+}
+.symbolContainer{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    background-color: red;
+
+}
+.symbolContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+}
+.symbol01,.symbol02,.symbol03,.symbol04{
+    text-align: center;
+    flex: 1;
+}
+.linerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right, rgb(13, 90, 104), rgba(17, 207, 241, 0.459));
+    margin-bottom: 40px;
+
+}
+.linerContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+
+}
+.learnMore{
+    padding: 7px 14px;
+    background-color: yellow;
+    border-radius: 3px;
+    border: none;
+    font-weight: 700;
+}
+#linerlink{
+    color: purple;
+    text-decoration: underline;
+
+}
+.sectionContent{
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+.section03up{
+    width: 100%;
+    background-color: rgb(0, 255, 179);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.section03left{
+    width: 44%;
+    
+    background-color: brown;
+    
+}
+.section03leftContainer{
+
+}
+.section03right{
+    width: 44%;
+    display: flex;
+    align-items: center;
+
+}
+.section03rightContainer{
+    /* background-color: blueviolet; */
+
+}
+#networkbtn{
+    padding: 9px 18px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    color: white;
+}
+
+.section03down{
+    margin-top: 60px;
+    margin-bottom: 120px;
+    width: 100%;
+    background-color: rgb(0, 255, 179);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+
+}
+.section03downtext{
+    text-align: center;
+    width: 44%;
+    background-color: aqua;
+
+}
+.ulContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: grey; */
+
+}
+.section03downtext li{
+    text-align: left;
+
+}
+.section03downtext button{
+    background-color: green;
+    padding: 11px 22px;
+    border-radius: 4px;
+    width: 160px;
+    border: none;
+}
+.section03flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 44%;
+}
+.section03flex1,.section03flex2,.section03flex3{
+    height: 35vh;
+    background-color: blue;
+    border-radius: 7px;
+    width: 200px;
+
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    height: 25vh;
+}
+
+.footer1{
+    display: flex;
+    gap: 1rem;
+}
+
+.footer2{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.footer3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px;
+    
+}
+.footer1 p,.footer2 p, .footer3 p{
+    padding: 0;
+    margin: 0;
 }
