@@ -2,6 +2,7 @@ import './App.css';
 import './FirstPage/FirstPage'
 import FirstPage from './FirstPage/FirstPage'
 import Hompage from './Homepage/Homepage'
+import Pricing from './Pricing/Pricing'
 
 
 function App() {
@@ -9,6 +10,8 @@ function App() {
     <>
     <FirstPage/>
     {/* <Hompage/> */}
+    <Pricing/>
+
     </>
   )
 }
