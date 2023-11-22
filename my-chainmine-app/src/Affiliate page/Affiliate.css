@@ -3,7 +3,7 @@ body{
     padding: 0;
 }
 .affiliatebg{
-    height: 43vh;
+    height: 40vh;
     background-color: rgb(23, 63, 28);
     display: flex;
     justify-content: center;

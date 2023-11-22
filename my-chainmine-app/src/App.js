@@ -7,6 +7,7 @@ import Hompage from './Homepage/Homepage'
 import Pricing from './Pricing/Pricing'
 import Affiliate from './Affiliate page/Affiliate';
 import Insights from './Insights page/Insights';
+import About from './AboutPage/About';
 import Footer from './Footer/Footer'
 
 
@@ -20,7 +21,8 @@ function App() {
     {/* <Hompage/> */}
     {/* <Pricing/> */}
     {/* <Affiliate/> */}
-    <Insights/>
+    {/* <Insights/> */}
+    <About/>
     <Footer/>
 
     </>

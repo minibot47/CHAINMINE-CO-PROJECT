@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.aboutbg{
+    height: 40vh;
+    background-color: rgb(23, 63, 28);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+.aboutbgText{
+    width: 100%;
+    height: 100px;
+    /* background-color: aqua; */
+}
+.aboutbgText h3{
+    font-size: 3rem;
+    margin: 0;
+    margin-left: 100px;
+    color: white;
+}
