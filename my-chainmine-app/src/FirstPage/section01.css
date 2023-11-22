@@ -290,35 +290,3 @@
     width: 200px;
 
 }
-.footer{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    background-color: red;
-    height: 25vh;
-}
-
-.footer1{
-    display: flex;
-    gap: 1rem;
-}
-
-.footer2{
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    width: 100%;
-    margin-top: 10px;
-}
-
-.footer3{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 15px;
-    
-}
-.footer1 p,.footer2 p, .footer3 p{
-    padding: 0;
-    margin: 0;
-}

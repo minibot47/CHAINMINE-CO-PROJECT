@@ -1,13 +1,22 @@
 import './App.css';
-import './FirstPage/FirstPage'
-import FirstPage from './FirstPage/FirstPage'
-import Hompage from './Homepage/Homepage'
+import Header from './Header/Header';
+import Footer from './Footer/Footer';
+import FirstPage from './FirstPage/FirstPage';
+import Signup from'./Signup/Signup';
+import Login from './Login page/Login';
+import Affiliate from './Affiliate page/Affiliate';
+import Hompage from './Homepage/Homepage';
 
 function App() {
   return (
     <>
-    <FirstPage/>
+    <Header/>
+    {/* <FirstPage/> */}
+    {/* <Signup/> */}
+    {/* <Login/> */}
+    <Affiliate/>
     {/* <Hompage/> */}
+    <Footer/>
     </>
   )
 }
