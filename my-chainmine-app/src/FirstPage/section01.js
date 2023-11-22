@@ -1,5 +1,5 @@
 import React from 'react'
-import './section01.css'
+import './Section01.css'
 
 const Section01 = () => {
   return (
