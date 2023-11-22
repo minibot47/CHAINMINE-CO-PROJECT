@@ -1,6 +1,7 @@
 .homepage{
     color: white;
-    width: 100%;display: flex;
+    width: 100%;
+    display: flex;
     padding-top: 8%;
 
 
@@ -34,11 +35,12 @@
 .left-nav ul{
     list-style-type: none;
     margin-top: 30%;
+    /* text-align: center; */
 
 }
 
 .right{
-    background-color: rgb(167, 224, 224);
+    background-color: rgb(224, 239, 239);
     width: 80%;
     height: 230vh;
     padding-left: 20%;
@@ -65,6 +67,7 @@
     width: 10%;
     font-size: 15px;
     cursor: pointer;
+    
 }
 
 .right span{
@@ -94,6 +97,7 @@
 }
 .congratulations span{
     color: darkslategray;
+    font-weight: bold;
 }
 .congratulations button{
     background-color: darkslategray;
@@ -104,6 +108,7 @@
     width: 15%;
     font-size: 15px;
     cursor: pointer;
+    border-radius: 0.5rem;
 }
 .userinfo{
     height: 200px;
@@ -149,7 +154,7 @@
 .miningright{
     width: 500px;
     height: 300px;
-    margin-left:0;
+    margin-left:3%;
     display: block;
     align-items: center;
     justify-content: left;
@@ -216,12 +221,18 @@
     text-align: center;
     font-size: 15px;
 }    
+.miningright h3{
+    color: darkslategray;
+}
 .miningright button,h3{
     margin-left: 8%;
 }
 .future{
     margin-left: 5%;
     margin-right: 5%;
+}
+.future h1{
+    color: darkslategray;
 }
 .futuremining{
     background-color: white;
@@ -284,6 +295,7 @@
     margin-left: 3%;
     margin-top: 0 ;
     font-size: 17px;
+    color: darkslategray;
 
 }
 
@@ -295,8 +307,7 @@
     margin-top: 0;
 }
 .estimate h3{
-    margin: 1%;
-    margin-left: 10%;
+    margin: 0.5rem;
     margin-top: 3%;
 
 }
@@ -309,4 +320,12 @@
 }
 .futureminingright hr{
     margin: 0%;
+    margin-left: 5%;
+    
+}
+
+.bottom{
+    margin-left: 5%;
+    margin-top: 5%;
+    color: gray;
 }

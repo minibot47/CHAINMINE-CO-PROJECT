@@ -1,0 +1,159 @@
+.UPGRADE{
+    background-color:rgba(200, 232, 226, 0.781);
+    color: black;
+    width: 100%;
+    margin-left: 20%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 2%;
+    height: 140vh;
+}
+
+.totalpower{
+    height: 40%;
+    /* background-color: blue; */
+    width: 70%;
+    display: flex;
+}
+
+.leftpower{
+    height: 80%;
+    /* background-color: red; */
+    width: 40%;
+    font-size: 12px;
+}
+
+.power{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    background-color:rgb(66, 116, 66);
+    height: 90px;
+    padding-right: 15%;
+    border-radius: 0.5rem;
+}
+
+.power h2 , h3{
+    margin: 0%;
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons button{
+    width: 48%;
+    height: 50px;
+    margin: 0;
+    border-radius: 0.5rem;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: aquamarine;
+}
+#green{
+    background-color: rgb(148, 198, 148);
+}
+#green:hover{
+    background-color: green;
+}
+.power1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 90px;
+    padding-right: 15%;
+}
+
+.power1 h2 , h3{
+    margin: 0%;
+}
+.rightpower{
+    /* background-color: yellow; */
+    width: 55%;
+}
+.buy{
+    padding-left: 10%;
+    font-size: 13px;
+}
+.buying{
+    display: flex;
+    justify-content: space-between;
+}
+.amount{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    align-items: center;
+}
+
+.amount input{ 
+    width: 70%;
+    margin: 0%;
+    outline: 0 none white;
+    border: 0 none white;
+    margin-left: 3.5%;
+}
+.amount select{
+    height: 32px;
+    background-color: white;
+    color: green;
+    
+}
+
+.hashrate{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.deposit{
+    margin-left: 10%;
+}
+
+.qrcode{
+    height: 40%;
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 5%;
+    background-color: blue;
+}
+.upgrade-words{
+    width: 150%;
+    font-size: 15px;
+
+}
+
+.allyourupgrade{
+    margin-top: 20%;
+}
+
+.table{
+    display: flex;
+    gap: 10%;
+    background-color: darkolivegreen;
+    height: 40px;
+    align-items: center;
+    padding-left: 2%;
+    border-radius: 0.2rem;
+}
+.none{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(241, 234, 234);
+    width: 100%;
+    height: 40px;
+    border-radius: 0.2rem;
+    box-shadow: 10px 8px 20px 0px rgba(0, 0, 0, 0.314);
+}
