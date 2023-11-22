@@ -1,5 +1,9 @@
 import React from 'react'
 import './Homepage.css'
+import Upgrade from './Upgrade'
+import Transfer from './Transfer'
+import Partner from './Partner'
+import Settings from './Settings'
 
 const Homepage = () => {
   return (
@@ -14,7 +18,7 @@ const Homepage = () => {
                 <li><img src='' alt='⚡'/>Settings</li>
             </ul>
         </div>
-        <div className='right'>
+        {/* <div className='right'>
             <div className='top-promotion'>
                 <span>FREE EXTRA</span>hardware power.share your link! <input type='text' value={'https://chainmine.org/?ref=aXCyHo23}'}></input> <button>Learn More</button>
             </div>
@@ -156,7 +160,18 @@ const Homepage = () => {
                 </div>
 
             </div>
-        </div>
+            <div className='bottom'>
+            Don't limit yourself to fixed price plans. You decide how much hardware power 
+            <br/>you want to buy! No maintenance or waiting periods. No hidden setup or transfer 
+            <br/> fees. No term limits. Your cloud mining hardware starts automatically and is 
+            <br/> always online to mine Bitcoins for you.
+            </div>
+        </div> */}
+        {/* <Upgrade/> */}
+        {/* <Transfer/> */}
+        {/* <Partner/> */}
+        <Settings/>
+
       </div>
 
   

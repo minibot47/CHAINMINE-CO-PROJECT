@@ -7,6 +7,7 @@ import Login from './Login page/Login';
 import Affiliate from './Affiliate page/Affiliate';
 import Hompage from './Homepage/Homepage';
 
+
 function App() {
   return (
     <>
