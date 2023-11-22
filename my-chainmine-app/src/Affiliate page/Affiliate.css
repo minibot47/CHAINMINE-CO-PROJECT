@@ -23,7 +23,8 @@ body{
 }
 
 .commissionContainer{
-    margin-top: 120px;
+    margin-top: 110px;
+    margin-bottom: 110px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -58,6 +59,10 @@ body{
 .commissionLeft h1 {
     margin: 0;
 }
+.commissionLeft p {
+    color: grey;
+    
+}
 .commissionRight{
     flex: 1;
     text-align: center;
@@ -74,3 +79,72 @@ body{
 #commissionsignup{
     background-color: lightgreen;
 }
+
+.refferalSystem{
+    margin-top: 60px;
+    margin-bottom: 130px;
+    width: 100%;
+    background-color: rgb(0, 255, 179);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 4rem;
+
+}
+.refferalSystemLeft{
+    text-align: center;
+    width: 45%;
+    background-color: aqua;
+
+}
+.refferalSystemLeft h1{
+    margin: 0;
+    font-size: 2.4rem;
+}
+.refferalUl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: grey; */
+
+}
+.refferalUl li{
+    text-align: left;
+    font-size: 1.1rem;
+    letter-spacing: 1.5px;
+    margin: 0;
+
+}
+.refferalUl h1{
+
+    margin: 0;
+
+}
+.refferalSystemLeft button{
+    background-color: rgb(90, 218, 90);
+    padding: 11px 22px;
+    border-radius: 4px;
+    width: 250px;
+    border: none;
+    font-size: 1.1rem;
+}
+
+.refferalSystemRight{
+    text-align: left;
+    width: 44%;
+    background-color: aqua;
+
+}
+.refferalSystemRight h1{
+    margin: 0;
+
+}
+.refferalContainerRight{
+    line-height: 25px;
+
+}
+.refferalContainerRight p{
+    margin-top: 10px;
+
+}
+
