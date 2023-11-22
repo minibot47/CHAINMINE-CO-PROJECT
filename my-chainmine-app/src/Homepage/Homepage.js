@@ -170,7 +170,7 @@ const Homepage = () => {
         {/* <Upgrade/> */}
         {/* <Transfer/> */}
         {/* <Partner/> */}
-        <Settings/>
+        {/* <Settings/> */}
 
       </div>
 
