@@ -22,7 +22,7 @@ body{
     color: white;
 }
 
-.commissionContainer{
+.affiliatecommissionContainer{
     margin-top: 110px;
     margin-bottom: 110px;
     width: 100%;
@@ -31,7 +31,7 @@ body{
     align-items: center;
     /* background-color: rebeccapurple; */
 }
-.commissionContent{
+.affiliatecommissionContent{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,7 +41,7 @@ body{
     border-radius: 10px;
     padding: 8px 0;
 }
-.commissionBox{
+.affiliatecommissionBox{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,26 +49,26 @@ body{
     /* background-color: cornflowerblue; */
 
 }
-.commissionLeft{
+.affiliatecommissionLeft{
     flex: 2;
 }
-.commissionLeft h3 {
+.affiliatecommissionLeft h3 {
     font-weight: 450;
     margin: 0;
 }
-.commissionLeft h1 {
+.affiliatecommissionLeft h1 {
     margin: 0;
 }
-.commissionLeft p {
+.affiliatecommissionLeft p {
     color: grey;
     
 }
-.commissionRight{
+.affiliatecommissionRight{
     flex: 1;
     text-align: center;
 
 }
-.commissionRight button{
+.affiliatecommissionRight button{
     padding: 15px 15px;
     width: 200px;
     border-radius: 3.5px;
@@ -76,11 +76,11 @@ body{
     cursor: pointer;
     font-size: 1rem;
 }
-#commissionsignup{
+#affiliatecommissionsignup{
     background-color: lightgreen;
 }
 
-.refferalSystem{
+.affiliaterefferalSystem{
     margin-top: 60px;
     margin-bottom: 130px;
     width: 100%;
@@ -91,36 +91,36 @@ body{
     gap: 4rem;
 
 }
-.refferalSystemLeft{
+.affiliaterefferalSystemLeft{
     text-align: center;
     width: 45%;
     background-color: aqua;
 
 }
-.refferalSystemLeft h1{
+.affiliaterefferalSystemLeft h1{
     margin: 0;
     font-size: 2.4rem;
 }
-.refferalUl{
+.affiliaterefferalUl{
     display: flex;
     justify-content: center;
     align-items: center;
     /* background-color: grey; */
 
 }
-.refferalUl li{
+.affiliaterefferalUl li{
     text-align: left;
     font-size: 1.1rem;
     letter-spacing: 1.5px;
     margin: 0;
 
 }
-.refferalUl h1{
+.affiliaterefferalUl h1{
 
     margin: 0;
 
 }
-.refferalSystemLeft button{
+.affiliaterefferalSystemLeft button{
     background-color: rgb(90, 218, 90);
     padding: 11px 22px;
     border-radius: 4px;
@@ -129,21 +129,21 @@ body{
     font-size: 1.1rem;
 }
 
-.refferalSystemRight{
+.affiliaterefferalSystemRight{
     text-align: left;
     width: 44%;
     background-color: aqua;
 
 }
-.refferalSystemRight h1{
+.affiliaterefferalSystemRight h1{
     margin: 0;
 
 }
-.refferalContainerRight{
+.affiliaterefferalContainerRight{
     line-height: 25px;
 
 }
-.refferalContainerRight p{
+.affiliaterefferalContainerRight p{
     margin-top: 10px;
 
 }

@@ -14,20 +14,20 @@ const Affiliate = () => {
 
      
             {/* COMMISSION */}
-            <div className='commissionContainer'>
-              <div className='commissionContent'>
-                <div className='commissionBox'>
-                  <div className='commissionLeft'>
-                    <h3 id='commissionlimited'>Additional hash power for every customer</h3>
-                    <h1 id='commissionPower'>Get up to <span style={{color: 'rgb(144, 238, 144)'}}>7+2+1% </span> commission</h1>
-                    <p id='commissionmessage'> Sign up now and invite new customers with your personal referral link. Receive up to 10% 
+            <div className='affiliatecommissionContainer'>
+              <div className='affiliatecommissionContent'>
+                <div className='affiliatecommissionBox'>
+                  <div className='affiliatecommissionLeft'>
+                    <h3 id='affiliatecommissionlimited'>Additional hash power for every customer</h3>
+                    <h1 id='affiliatecommissionPower'>Get up to <span style={{color: 'rgb(144, 238, 144)'}}>7+2+1% </span> commission</h1>
+                    <p id='affiliatecommissionmessage'> Sign up now and invite new customers with your personal referral link. Receive up to 10% 
                     commission in the form of additional hashpower.
                       </p>
 
                   </div>
 
-                  <div className='commissionRight'>
-                  <button id='commissionsignup'><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/> Sign Up Now</button>
+                  <div className='affiliatecommissionRight'>
+                  <button id='affiliatecommissionsignup'><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/> Sign Up Now</button>
 
                   </div>
                 </div>
@@ -36,11 +36,11 @@ const Affiliate = () => {
 
             {/* REFFERAL SYSTEM */}
 
-        <div className='refferalSystem'>
-            <div className='refferalSystemLeft'>
+        <div className='affiliaterefferalSystem'>
+            <div className='affiliaterefferalSystemLeft'>
                 <h3>Expand your earnings</h3>
                 <h1>Our <span style={{color: 'red'}}>3-level</span> referral system</h1>
-                <div className='refferalUl'>
+                <div className='affiliaterefferalUl'>
                     <ul>
                         <li> Level 1 – 7%</li>
                         <li> Level 2 – 2%</li>
@@ -52,10 +52,10 @@ const Affiliate = () => {
                 <button>Get Your Link Today</button>
 
             </div>
-            <div className='refferalSystemRight'>
+            <div className='affiliaterefferalSystemRight'>
                     <h3>Simple for everyone</h3>
                         <h1>The ChainMine Partner Program</h1>
-                        <div className='refferalContainerRight'>
+                        <div className='affiliaterefferalContainerRight'>
                             <p>Our affiliate program is available to every customer without 
                             obligation and can be used directly after registration. Send
                             your personal referral link to friends, acquaintances, in 

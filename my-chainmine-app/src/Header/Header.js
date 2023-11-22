@@ -6,17 +6,17 @@ const Header = () => {
     <header>
         <div className='headerContainer'>
 
-            <div className='topLayer'>
+            <div className='headertopLayer'>
 
                 {/* LOGO */}
 
-                <div className='logo'>
+                <div className='headerlogo'>
                     <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='logo'/>
                 </div>
 
                 {/* STATISTICS */}
 
-                <div className='statistics'>
+                <div className='headerstatistics'>
                     <p>1 BTC = <span style={{ fontWeight: 780}}>36215.38 USD</span></p>
                     <p><span style={{ fontWeight: 780}}>993868</span> Customers</p>
                     <p><span style={{ fontWeight: 780}}>114.2117 BTC</span> Minings</p>
@@ -26,7 +26,7 @@ const Header = () => {
 
                 {/* REVIEW ON TRUST PILOT */}
 
-                <div className='review'>
+                <div className='headerreview'>
                     <p>See our <span>13,762</span> reviews on  
                     <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='logo'/>
                         Trustpilot</p>
@@ -34,8 +34,8 @@ const Header = () => {
 
                 {/* SELECT CURRENCY */}
 
-                <div className='select'>
-                    <select>
+                <div className='headerselect'>
+                    <select className='headerselectcontent'>
                         <option>BTC</option>
                         <option>USD</option>
                         <option>EUR</option>
@@ -46,17 +46,17 @@ const Header = () => {
                 </div>
             </div>
 
-            <div className='secondLayer'>
+            <div className='headersecondLayer'>
 
                 {/* LOGO */}
 
-                <div className='logo'>
+                <div className='headerlogo'>
                     <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='logo'/>
                 </div>
 
                 {/* NAVIGATION BAR */}
 
-                <div className='navigate'>
+                <div className='headernavigate'>
                     <p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Home</p>
                     <p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Pricing</p>
                     <p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Affiliate</p>
@@ -71,11 +71,11 @@ const Header = () => {
 
                 {/* SIGNUP && SIGN IN */}
 
-                <div className='signUpIn'>
+                <div className='headersignUpIn'>
 
-                    <button id='signin'><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/> Sign in </button>
+                    <button id='headersignin'><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/> Sign in </button>
 
-                    <button id='signup'><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/> Sign up</button>
+                    <button id='headersignup'><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/> Sign up</button>
                 </div>
 
 

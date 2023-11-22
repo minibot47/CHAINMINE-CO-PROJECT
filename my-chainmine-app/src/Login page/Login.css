@@ -10,12 +10,12 @@ body{
     align-items: end;
 
 }
-.bgText{
+.loginbgText{
     width: 100%;
     height: 100px;
     /* background-color: aqua; */
 }
-.bgText h3{
+.loginbgText h3{
     font-size: 3rem;
     margin: 0;
     margin-left: 100px;
@@ -27,7 +27,7 @@ body{
     align-items: center;
     background-color: red;
 }
-.formContent{
+.loginformContent{
     margin-top: 123px;
     margin-bottom: 130px;
     background-color: pink;
@@ -35,44 +35,44 @@ body{
     padding: 20px;
 }
 
-.name{
+.loginname{
     display: flex;
     justify-content: left;
     align-items: center;
     gap: 0.5rem;
 }
-.password{
+.loginpassword{
     display: flex;
     justify-content: left;
     align-items: center;
     gap: 0.5rem;
 }
-.email{
+.loginemail{
     display: flex;
     justify-content: left;
     align-items: center;
     gap: 0.5rem;
 }
-.forgotbtn{
+.loginforgotbtn{
     display: flex;
     justify-content: left;
     align-items: center;
     gap: 1rem;
 }
-.forgotbtn button{
+.loginforgotbtn button{
     padding: 8px 16px;
     width: 150px;
     border: none;
     border-radius: 5px;
 
 }
-.name input, .password input, .email input{
+.loginname input, .loginpassword input, .loginemail input{
     width: 250px;
     height: 30px;
     border: none;
     border-radius: 5px;
 }
-.update{
+.loginupdate{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,12 +81,12 @@ body{
     padding-left: 5px;
 }
 
-.updateContent h5{
+.loginupdateContent h5{
     margin-bottom: 0;
     margin: 13px;
     margin-left: 0;
 }
-.updateContent p{
+.loginupdateContent p{
     margin-top: 8px;
     font-size: .9rem;
   

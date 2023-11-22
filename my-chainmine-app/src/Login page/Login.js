@@ -8,26 +8,26 @@ const Login = () => {
      {/* LOGIN BG IMAGE */}
 
      <div className='loginbg'>
-      <div className='bgText'>
+      <div className='loginbgText'>
         <h3>Sign in</h3>
       </div>
      </div>
 
      {/* FORM ASPECT */}
      <div className='loginForm'>
-       <div className='formContent'>
+       <div className='loginformContent'>
         <form>
-          <div className='name'>
+          <div className='loginname'>
           <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>
-          <input type='text'id='name' name='name' placeholder='Email/Username'/>
+          <input type='text'id='loginname' name='loginname' placeholder='Email/Username'/>
           </div>
 
-          <div className='password'>
+          <div className='loginpassword'>
             <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>
-            <input type='password' id='password' name='password' placeholder='Password'/>
+            <input type='password' id='loginpassword' name='loginpassword' placeholder='Password'/>
           </div>
 
-          <div className='forgotbtn'>
+          <div className='loginforgotbtn'>
             <p>Forgot password ?</p>
             <button> Continue</button>
           </div>
@@ -35,8 +35,8 @@ const Login = () => {
 
           {/* UPDATE */}
 
-     <div className='update'>
-      <div className='updateContent'>
+     <div className='loginupdate'>
+      <div className='loginupdateContent'>
         <h5>Update (August 23, 2023):</h5>
         <p>We successfully enabled the two-factor 
           authentication (2FA) feature to provide additional 

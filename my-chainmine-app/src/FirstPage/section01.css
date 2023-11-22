@@ -53,11 +53,11 @@
     
 }
 
-#login{
+#section02login{
     background-color: darkgreen;
     color: white;
 }
-#startnow{
+#secton02startnow{
     background-color: rgb(144, 238, 144);
     color: darkgreen;
 }
@@ -67,7 +67,7 @@
     justify-content: center;
 
 }
-.Reviewcontent{
+.section02Reviewcontent{
     margin-top: 10px;
     background-color: yellow;
     padding: 10px 14px;
@@ -75,7 +75,7 @@
     border-radius: 5px;
     text-align: center;
 }
-.Reviewcontent p{
+.section02Reviewcontent p{
     margin: 0;
 }
 .section02Flex01{
@@ -85,19 +85,19 @@
     /* background-color: aqua; */
     margin-bottom: 100px;
 }
-.flex011{
+.section02flex011{
     width: 30%;
     text-align: center;
     color: rgb(156, 154, 154);
 
 }
-.flex012{
+.section02flex012{
     width: 29%;
     text-align: center;
     color: rgb(156, 154, 154);
 
 }
-.flex013{
+.section02flex013{
     width: 29%;
     text-align: center;
     color: rgb(156, 154, 154);
@@ -106,14 +106,14 @@
 .section02Flex01 h2{
     color: rgb(25, 80, 53);
 }
-.minerContainer{
+.section02minerContainer{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     /* background-color: rebeccapurple; */
 }
-.minerContent{
+.section02minerContent{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -123,7 +123,7 @@
     padding: 8px 0;
     border: 4px dashed yellow;
 }
-.minerBox{
+.section02minerBox{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -131,16 +131,16 @@
     /* background-color: cornflowerblue; */
 
 }
-.minerLeft{
+.section02minerLeft{
     flex: 2;
 
 }
-.minerRight{
+.section02minerRight{
     flex: 1;
     text-align: center;
 
 }
-.minerRight button{
+.section02minerRight button{
     padding: 9px 18px;
     width: 130px;
     border-radius: 3.5px;
@@ -148,10 +148,10 @@
     cursor: pointer;
     font-size: 1rem;
 }
-#minersignup{
+#section02minersignup{
     background-color: lightgreen;
 }
-.symbolContainer{
+.section02symbolContainer{
     margin-top: 100px;
     width: 100%;
     display: flex;
@@ -161,17 +161,17 @@
     background-color: red;
 
 }
-.symbolContent{
+.section02symbolContent{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 65%;
 }
-.symbol01,.symbol02,.symbol03,.symbol04{
+.section02symbol01,.section02symbol02,.section02symbol03,.section02symbol04{
     text-align: center;
     flex: 1;
 }
-.linerContainer{
+.section02linerContainer{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -179,26 +179,26 @@
     margin-bottom: 40px;
 
 }
-.linerContent{
+.section02linerContent{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: .5rem;
 
 }
-.learnMore{
+.section02learnMore{
     padding: 7px 14px;
     background-color: yellow;
     border-radius: 3px;
     border: none;
     font-weight: 700;
 }
-#linerlink{
+#section02linerlink{
     color: purple;
     text-decoration: underline;
 
 }
-.sectionContent{
+.section03Content{
     width: 100%;
     flex-direction: column;
     justify-content: center;
@@ -233,7 +233,7 @@
 
 }
 
-#networkbtn{
+#section03networkbtn{
     padding: 9px 18px;
     width: 200px;
     border-radius: 5px;
@@ -259,7 +259,7 @@
     background-color: aqua;
 
 }
-.ulContainer{
+.section03ulContainer{
     display: flex;
     justify-content: center;
     align-items: center;

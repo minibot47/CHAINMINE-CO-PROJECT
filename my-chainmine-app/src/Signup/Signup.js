@@ -18,28 +18,28 @@ const Signup = () => {
         <form>
           <div className='signupname'>
           <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>
-          <input type='text'id='name' name='name' placeholder='New Username'/>
+          <input type='text'id='signupname' name='signupname' placeholder='New Username'/>
           </div>
 
           <div className='signupemail'>
           <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>
-          <input type='email'id='email' name='email' placeholder='Your Email'/>
+          <input type='email'id='signupemail' name='signupemail' placeholder='Your Email'/>
           </div>
 
           <div className='signuppassword'>
             <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>
-            <input type='password' id='password' name='password' placeholder=' New Password'/>
+            <input type='password' id='signuppassword' name='signuppassword' placeholder=' New Password'/>
           </div>
 
-          <div className='continuebtn'>
+          <div className='signupcontinuebtn'>
             <button> Continue</button>
           </div>
         </form>
 
           {/* UPDATE */}
 
-     <div className='termsofservice'>
-      <div className='termsofserviceContent'>
+     <div className='signuptermsofservice'>
+      <div className='signuptermsofserviceContent'>
         <p>By clicking Sign Up, you are indicating that you have read and acknowledge our Terms of Service.</p>
       </div>
      </div>
