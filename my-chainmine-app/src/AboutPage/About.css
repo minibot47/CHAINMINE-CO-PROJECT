@@ -21,3 +21,133 @@ body{
     margin-left: 100px;
     color: white;
 }
+.aboutCeo{
+    margin-top: 100px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutCeoContainer{
+    text-align: center;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutCeocontent{
+    width: 80%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+.aboutCeohead{
+    width: 80%;
+    background-color: green;
+
+}
+.aboutCeohead p{
+    font-size: 1.2rem;
+    /* background-color: pink; */
+}
+
+.aboutsymbolContainer{
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    background-color: red;
+
+}
+.aboutsymbolContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+}
+.aboutsymbol01,.aboutsymbol02,.aboutsymbol03,.aboutsymbol04{
+    text-align: center;
+    flex: 1;
+}
+
+.aboutVision{
+    text-align: center;
+    margin-bottom: 110px;
+}
+.aboutVision h5{
+    margin: 0;
+    font-size: 1.3rem;
+}
+.aboutVision h1{
+    margin-top: 0;
+}
+.aboutVisionpara{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    color: grey;
+}
+.aboutVisionpara p{
+    width: 46%;
+    margin: 0 20px;
+    text-align: justify;
+
+}
+.mapContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 90px;
+
+}
+
+.mapContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.mapLeft{
+    width: 43%;
+}
+.mapRight{
+    width: 43%;
+}
+.mapRight h4{
+    margin: 0;
+
+}
+.mapRight h1{
+    margin: 0;
+    margin-bottom: 10px;
+
+}
+.mapRight p{
+    margin: 0;
+    line-height: 1.5rem;
+
+}
+#mapfaqs{
+    padding: 10px 23px;
+    background-color: rgb(20, 88, 20);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+#maplicense{
+    padding: 10px 0px;
+    width: 200px;
+    background-color: rgb(41, 226, 41);
+    border: none;
+    border-radius: 5px;
+}
