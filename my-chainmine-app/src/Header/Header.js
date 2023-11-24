@@ -11,7 +11,7 @@ const Header = () => {
                 {/* LOGO */}
 
                 <div className='headerlogo'>
-                    <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='logo'/>
+                    <img src='/images/logo.png' alt='logo'/>
                 </div>
 
                 {/* STATISTICS */}
@@ -27,7 +27,7 @@ const Header = () => {
                 {/* REVIEW ON TRUST PILOT */}
 
                 <div className='headerreview'>
-                    <p>See our <span>13,762</span> reviews on  
+                    <p>See our <span style={{ fontWeight: 780}}>13,762</span> reviews on  
                     <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='logo'/>
                         Trustpilot</p>
                 </div>
@@ -59,9 +59,7 @@ const Header = () => {
                 <div className='headernavigate'>
                     <p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Home</p>
                     <p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Pricing</p>
-                    <p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Affiliate</p>
-
-                    <button>Free BTC</button>
+                    <p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Affiliate <span id='freebtc'>Free BTC</span></p>
 
                     <p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Insights</p>
                     <p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>FAQs</p>

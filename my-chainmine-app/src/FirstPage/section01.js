@@ -8,7 +8,7 @@ const Section01 = () => {
         <div className='section01Content'>
 
             <div className='section01Pic'>
-            <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='logo'/>
+            <img src='/images/logo.png' alt='logo'/>
             </div>
 
             {/* TEXT */}
@@ -34,15 +34,15 @@ const Section01 = () => {
 
            {/* LOGIN && START NOW */}
             <div className='section02Button'>
-                <button id='secton02login' className=''> <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/> Log in</button>
-                <button id='secton02startnow' className=''> <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/> Start now</button>
+                <button id='secton02login' className=''> <img src='/images/logo.png' alt='O'/> Log in</button>
+                <button id='secton02startnow' className=''> <img src='/images/logo.png' alt='O'/> Start now</button>
             </div>
 
             {/* REVIEW */}
             <div className='section02Review'>
               <div className='section02Reviewcontent'>
                 <p>See our <span>13,762</span> reviews on  
-                 <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='logo'/>
+                 <img src='/images/logo.png' alt='logo'/>
                  Trustpilot
                 </p>
               </div>
@@ -52,7 +52,7 @@ const Section01 = () => {
 
             <div className='section02Flex01'>
               <div className='section02flex011'>
-              <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='logo'/>
+              <img src='/images/logo.png' alt='logo'/>
               <h2><span style={{color: 'rgb(144, 238, 144)'}}>Your</span> freedom to mine <span style={{color: 'rgb(144, 238, 144)'}}>your</span> Bitcoins</h2>
               <p>Bitcoin Cloud Mining is an easy way to mine bitcoins without buying them.
                  You get the power of online mining without the need for expensive hardware.
@@ -61,7 +61,7 @@ const Section01 = () => {
 
               </div>
               <div className='section02flex012'>
-              <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='logo'/>
+              <img src='/images/logo.png' alt='logo'/>
               <h2><span style={{color: 'rgb(144, 238, 144)'}}>Easy</span> to start, <span style={{color: 'rgb(144, 238, 144)'}}>no setup</span> required</h2>
               <p>After successful registration and receiving our free bonus, our cloud 
                 miners will start directly and mine your Bitcoins, day and night
@@ -70,7 +70,7 @@ const Section01 = () => {
 
               </div>
               <div className='section02flex013'>
-              <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='logo'/>
+              <img src='/images/logo.png' alt='logo'/>
               <h2><span style={{color: 'rgb(144, 238, 144)'}}>Transfer</span> your <span style={{color: 'rgb(144, 238, 144)'}}>earnings</span> today</h2>
               <p>Receive your Bitcoins directly into a Bitcoin wallet of your choice
                  or exchange them and purchase even more hardware power, directly
@@ -94,7 +94,7 @@ const Section01 = () => {
                   </div>
 
                   <div className='section02minerRight'>
-                  <button id='section02minersignup'><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/> Sign up</button>
+                  <button id='section02minersignup'><img src='/images/logo.png' alt='O'/> Sign up</button>
 
                   </div>
                 </div>
@@ -106,22 +106,22 @@ const Section01 = () => {
             <div className='section02symbolContainer'>
               <div className='section02symbolContent'>
                 <div className='section02symbol01'>
-                  <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>
+                  <img src='/images/logo.png' alt='O'/>
                   <p>SSL Certified Platform</p>
 
                 </div>
                 <div className='section02symbol02'>
-                  <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>
+                  <img src='/images/logo.png' alt='O'/>
                   <p>UK Approved Company</p>
 
                 </div>
                 <div className='section02symbol03'>
-                  <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>
+                  <img src='/images/logo.png' alt='O'/>
                   <p>Member of the Blockchain Association</p>
 
                 </div>
                 <div className='section02symbol04'>
-                  <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>
+                  <img src='/images/logo.png' alt='O'/>
                   <p>Associated with the Financial Commission</p>
 
                 </div>
@@ -134,7 +134,7 @@ const Section01 = () => {
               <div className='section02linerContent'>
                 <p>Get <span id='section02linerlink'>FREE EXTRA</span> hardware power for <span id='linerlink'>EVERY</span> purchase made by your referrals.
                 </p>
-                <button className='section02learnMore'><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Learn more</button>
+                <button className='section02learnMore'><img src='/images/logo.png' alt='O'/>Learn more</button>
               </div>
             </div>
 

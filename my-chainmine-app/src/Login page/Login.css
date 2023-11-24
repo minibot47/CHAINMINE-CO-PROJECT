@@ -30,7 +30,7 @@ body{
 .loginformContent{
     margin-top: 123px;
     margin-bottom: 130px;
-    background-color: pink;
+    /* background-color: pink; */
     width: 24%;
     padding: 20px;
 }
@@ -41,18 +41,20 @@ body{
     align-items: center;
     gap: 0.5rem;
 }
+.loginname img{
+    height: 20px;
+}
 .loginpassword{
     display: flex;
     justify-content: left;
     align-items: center;
     gap: 0.5rem;
 }
-.loginemail{
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    gap: 0.5rem;
+
+.loginpassword img{
+    height: 20px;
 }
+
 .loginforgotbtn{
     display: flex;
     justify-content: left;
@@ -64,6 +66,7 @@ body{
     width: 150px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 
 }
 .loginname input, .loginpassword input, .loginemail input{

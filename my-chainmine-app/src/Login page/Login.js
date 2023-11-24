@@ -18,12 +18,12 @@ const Login = () => {
        <div className='loginformContent'>
         <form>
           <div className='loginname'>
-          <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>
+          <img src='/images/logo.png' alt='O'/>
           <input type='text'id='loginname' name='loginname' placeholder='Email/Username'/>
           </div>
 
           <div className='loginpassword'>
-            <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>
+            <img src='/images/logo.png' alt='O'/>
             <input type='password' id='loginpassword' name='loginpassword' placeholder='Password'/>
           </div>
 

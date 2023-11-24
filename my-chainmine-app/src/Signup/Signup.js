@@ -17,17 +17,17 @@ const Signup = () => {
        <div className='signupformContent'>
         <form>
           <div className='signupname'>
-          <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>
+          <img src='/images/logo.png' alt='O'/>
           <input type='text'id='signupname' name='signupname' placeholder='New Username'/>
           </div>
 
           <div className='signupemail'>
-          <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>
+          <img src='/images/logo.png' alt='O'/>
           <input type='email'id='signupemail' name='signupemail' placeholder='Your Email'/>
           </div>
 
           <div className='signuppassword'>
-            <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>
+            <img src='/images/logo.png' alt='O'/>
             <input type='password' id='signuppassword' name='signuppassword' placeholder=' New Password'/>
           </div>
 

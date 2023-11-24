@@ -40,17 +40,26 @@ body{
     align-items: center;
     gap: 0.5rem;
 }
+.signupname img{
+    height: 20px;
+}
 .signuppassword{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
 }
+.signuppassword img{
+    height: 20px;
+}
 .signupemail{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
+}
+.signupemail img{
+    height: 20px;
 }
 .signupcontinuebtn{
     display: flex;

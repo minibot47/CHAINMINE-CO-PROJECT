@@ -11,7 +11,6 @@ header{
 
 }
 .headerContainer{
-    padding: 3px 8px;
 
 }
 
@@ -22,6 +21,12 @@ header{
     align-items: center;
     color: white;
     font-size: .75rem;
+    padding: 3px 8px;
+
+}
+
+.headerlogo img{
+    height: 30px;
 
 }
 .headerstatistics{
@@ -30,6 +35,17 @@ header{
     align-items: center;
 }
 
+.headerreview p{
+    font-size: .9rem;
+    margin: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.headerreview img{
+    height: 30px;
+
+}
 
 .headerselectcontent{
     color: white;
@@ -37,8 +53,16 @@ header{
     width: 100px;
     border-radius: 2px;
     border: 1px solid white;
+    background-color: rgb(0,67,70);
+    cursor: pointer;
+}
+.headerselectcontent:hover{
+    background-color: rgb(4, 44, 46);
+}
+.headerselectcontent option{
+    background-color: rgb(4, 44, 46);
+    color: white;
 
-    background-color: rgb(18, 114, 77);
 }
 
 .headersecondLayer{
@@ -46,30 +70,48 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 0;
+    padding: 8px 8px;
 
 }
 .headernavigate{
     display: flex;
     gap: 1.5rem;
-    align-items: center;
     cursor: pointer;
 }
+.headernavigate p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headernavigate img{
+    height: 30px;
 
-.headernavigate button{
-    padding: 3px 6px;
+}
+.headernavigate #freebtc{
+    padding: 2px 5px;
     max-height:25px;
-    cursor: pointer;
     background-color: rgb(245, 245, 21);
     border-radius: 3px;
     border: 0.5px solid grey;
+    margin-left: 15px;
 
 }
 
 .headersignUpIn{
     display: flex;
     gap: 1.5rem;
+    align-items: center;
 
+
+}
+.headersignUpIn button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headersignUpIn img{
+
+    height: 30px;
 
 }
 .headersignUpIn button{
