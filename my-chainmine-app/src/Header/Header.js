@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css';
+import {Link} from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -57,13 +58,12 @@ const Header = () => {
                 {/* NAVIGATION BAR */}
 
                 <div className='headernavigate'>
-                    <p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Home</p>
-                    <p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Pricing</p>
-                    <p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Affiliate <span id='freebtc'>Free BTC</span></p>
-
-                    <p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Insights</p>
-                    <p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>FAQs</p>
-                    <p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>About</p>
+                <Link to='/'><p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Home</p></Link>
+                    <Link to='/'><p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Pricing</p></Link>
+                    <Link to='/Affiliate'><p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Affiliate <span id='freebtc'>Free BTC</span></p></Link>
+                    <Link to='/Insights'><p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Insights</p></Link>
+                    <Link to=''><p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>FAQs</p></Link>
+                   <Link to='/About'><p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>About</p></Link>
 
                 </div>
 
@@ -71,9 +71,9 @@ const Header = () => {
 
                 <div className='headersignUpIn'>
 
-                    <button id='headersignin'><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/> Sign in </button>
+                    <Link to='/Login'><button id='headersignin'><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/> Sign in </button></Link>
 
-                    <button id='headersignup'><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/> Sign up</button>
+                   <Link to='/Signup'> <button id='headersignup'><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/> Sign up</button> </Link>
                 </div>
 
 

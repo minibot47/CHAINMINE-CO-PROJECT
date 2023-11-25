@@ -5,7 +5,7 @@ const Insights = () => {
   return (
     <>
 
-    {/* AFFILIATE BG IMAGE */}
+    {/* INSIGHTS BG IMAGE */}
 
     <div className='insightsbg'>
         <div className='insightsbgText'>
@@ -19,7 +19,7 @@ const Insights = () => {
         <div className='insightswithdrawalContainer'>
             <div className='insightswithdrawalLeft'>
                 <div className='insightsleft01'>
-                <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='logo'/>
+                <img src='/images/logo.png' alt='logo'/>
                 <div className='insightsleft01text'>
                     <p>Total Customers</p>
                     <p>1028751</p>

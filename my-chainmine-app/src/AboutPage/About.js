@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-
+import {Link} from 'react-router-dom'
 const About = () => {
   return (
    <>
@@ -8,7 +8,7 @@ const About = () => {
 
     <div className='aboutbg'>
       <div className='aboutbgText'>
-        <h3>Sign in</h3>
+        <h3>About</h3>
       </div>
     </div>
 
@@ -99,7 +99,7 @@ const About = () => {
 
                 <div className='mapButton'>
                     <button id='mapfaqs'><img src='/images/logo.png' alt='logo'/>FAQs</button>
-                    <button id='maplicense'><img src='/images/logo.png' alt='logo'/>Download License</button>
+                    <Link target='_blank' to='https://chainmine.pro/uk_gov_102904820.pdf'><button id='maplicense'><img src='/images/logo.png' alt='logo'/>Download License</button></Link>
                 </div>
             </div>
         </div>

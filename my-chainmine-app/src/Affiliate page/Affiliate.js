@@ -1,5 +1,6 @@
 import React from 'react'
 import './Affiliate.css'
+import {Link} from 'react-router-dom'
 
 const Affiliate = () => {
   return (
@@ -27,7 +28,7 @@ const Affiliate = () => {
                   </div>
 
                   <div className='affiliatecommissionRight'>
-                  <button id='affiliatecommissionsignup'><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/> Sign Up Now</button>
+                  <Link to='/Signup'><button id='affiliatecommissionsignup'><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/> Sign Up Now</button></Link>
 
                   </div>
                 </div>
@@ -39,7 +40,7 @@ const Affiliate = () => {
         <div className='affiliaterefferalSystem'>
             <div className='affiliaterefferalSystemLeft'>
                 <h3>Expand your earnings</h3>
-                <h1>Our <span style={{color: 'red'}}>3-level</span> referral system</h1>
+                <h1>Our <span style={{color: 'rgb(25, 202, 158)'}}>3-level</span> referral system</h1>
                 <div className='affiliaterefferalUl'>
                     <ul>
                         <li> Level 1 – 7%</li>
@@ -49,7 +50,7 @@ const Affiliate = () => {
                     </ul>
                 </div>
 
-                <button>Get Your Link Today</button>
+                <Link to='/Signup'><button>Get Your Link Today</button></Link>
 
             </div>
             <div className='affiliaterefferalSystemRight'>

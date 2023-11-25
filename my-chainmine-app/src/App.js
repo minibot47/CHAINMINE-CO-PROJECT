@@ -9,23 +9,28 @@ import Affiliate from './Affiliate page/Affiliate';
 import Insights from './Insights page/Insights';
 import About from './AboutPage/About';
 import Footer from './Footer/Footer'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
 
 
 function App() {
   return (
-    <>
+  <BrowserRouter>
     <Header/>
-    {/* <Signup/> */}
-    {/* <Login/> */}
-    {/* <FirstPage/> */}
+    <Routes>
+      <Route element={<Signup/>} path='/Signup'/>
+      <Route element={<Login/>} path='/Login'/>
+      <Route element={<FirstPage/>} path='/'/>
     {/* <Hompage/> */}
     {/* <Pricing/> */}
-    {/* <Affiliate/> */}
-    {/* <Insights/> */}
-    <About/>
+    <Route element={<Affiliate/>} path='/Affiliate'/>
+    <Route element={<Insights/>} path='/Insights'/>
+    <Route element={<About/>} path='/About'/>
+    </Routes>
     <Footer/>
-
-    </>
+    
+    </BrowserRouter>
+  
   )
 }
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Section01.css'
+import {Link} from 'react-router-dom'
 
 const Section01 = () => {
   return (
@@ -34,8 +35,8 @@ const Section01 = () => {
 
            {/* LOGIN && START NOW */}
             <div className='section02Button'>
-                <button id='section02login'> <img src='/images/logo.png' alt='O'/> Log in</button>
-                <button id='secton02startnow'> <img src='/images/logo.png' alt='O'/> Start now</button>
+            <Link to='/Login'><button id='section02login'> <img src='/images/logo.png' alt='O'/> Log in</button></Link>
+            <Link to='/Signup'><button id='secton02startnow'> <img src='/images/logo.png' alt='O'/> Start now</button></Link>
             </div>
 
             {/* REVIEW */}
@@ -94,7 +95,7 @@ const Section01 = () => {
                   </div>
 
                   <div className='section02minerRight'>
-                  <button id='section02minersignup'><img src='/images/logo.png' alt='O'/> Sign Up Now</button>
+                  <Link to='/Signup'><button id='section02minersignup'><img src='/images/logo.png' alt='O'/> Sign Up Now</button></Link> 
 
                   </div>
                 </div>
@@ -134,7 +135,7 @@ const Section01 = () => {
               <div className='section02linerContent'>
                 <p>Get <span id='section02linerlink'>FREE EXTRA</span> hardware power for <span id='section02linerlink'>EVERY</span> purchase made by your referrals.
                 </p>
-                <button className='section02learnMore'><img src='/images/logo.png' alt='O'/>Learn more</button>
+                <Link to='/Affiliate'><button className='section02learnMore'><img src='/images/logo.png' alt='O'/>Learn more</button></Link>
               </div>
             </div>
 
@@ -169,7 +170,7 @@ const Section01 = () => {
                     customers and get additional hardware power through our
                     3-tier affiliate program.</p>
 
-                    <button id='section03networkbtn'>Network Insight</button>
+                    <Link to='/Insights'><button id='section03networkbtn'>Network Insight</button></Link>
 
 
                 </div>
@@ -191,7 +192,7 @@ const Section01 = () => {
               </ul>
             </div>
 
-            <button>Start now</button>
+            <Link to='/Signup'><button>Start now</button></Link>
 
           </div>
           <div className='section03flex'>

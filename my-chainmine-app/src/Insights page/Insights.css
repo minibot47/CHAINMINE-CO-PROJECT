@@ -4,7 +4,7 @@ body{
 }
 .insightsbg{
     height: 40vh;
-    background-color: rgb(23, 63, 28);
+    background-color: rgb(0,67,70);
     display: flex;
     justify-content: center;
     align-items: end;
@@ -26,7 +26,6 @@ body{
     display: flex;
     width: 100%;
     justify-content: center;
-    background-color: red;
     margin-top: 110px;
     margin-bottom: 110px;
 }
@@ -35,13 +34,14 @@ body{
     display: flex;
     width: 97%;
     justify-content: center;
-    background-color: blue;
     gap: 4rem;
 }
 .insightswithdrawalLeft{
     margin-top: 20px;
     flex: 1;
-    background-color: pink;
+}
+.insightswithdrawalLeft img{
+    height: 30px;
 }
 .insightsleft01{
     display: flex;
@@ -61,7 +61,6 @@ body{
 
 .insightswithdrawalRight{
     flex: 3;
-    background-color: purple;
 }
 
 .insightswithdrawalRightContent h1{
@@ -72,10 +71,13 @@ body{
     width: 100%;
     text-align: left;
     border-collapse: collapse;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    filter: drop-shadow(0 3px 5px rgb(201, 199, 199));
 }
 #insightstable th{
     padding: 7px 7px;
-    background-color: rgb(36, 83, 36);
+    background-color: rgb(0,67,70);
     color: white;
 }
 #insightstable td{
@@ -89,4 +91,6 @@ body{
 
 .insightswithdrawalRightPara{
     margin-top: 30px;
+    color: grey;
+    font-style: italic;
 }
