@@ -46,7 +46,8 @@ body{
     height: 60px;
 }
 #topceo{
-    height: 100px;
+    height: 50px;
+    margin-bottom: 50px;
 }
 .aboutCeohead{
     width: 80%;
@@ -60,7 +61,7 @@ body{
     font-size: 1.2rem;
     color: grey;
     font-weight: 300;
-    /* background-color: pink; */
+    font-style: italic;
 }
 .aboutCeohead h5{
     color: rgb(25, 202, 158);

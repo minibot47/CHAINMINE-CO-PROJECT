@@ -27,11 +27,11 @@ const Header = () => {
 
                 {/* REVIEW ON TRUST PILOT */}
 
-                <div className='headerreview'>
+                {/* <div className='headerreview'>
                     <p>See our <span style={{ fontWeight: 780}}>13,762</span> reviews on  
                     <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='logo'/>
                         Trustpilot</p>
-                </div>
+                </div> */}
 
                 {/* SELECT CURRENCY */}
 
@@ -51,8 +51,8 @@ const Header = () => {
 
                 {/* LOGO */}
 
-                <div className='headerlogo'>
-                    <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='logo'/>
+                <div className='headerlogo2'>
+                <Link to='/'><img src='/images/chainminelogo.svg' alt='logo'/></Link>
                 </div>
 
                 {/* NAVIGATION BAR */}

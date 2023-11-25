@@ -17,7 +17,7 @@ const About = () => {
     <div className='aboutCeo'>
         <div className='aboutCeoContainer'>
             <div className='aboutCeocontent'>
-                <img id='topceo' src='/images/logo.png' alt='logo'/>
+                <img id='topceo' src='/images/chainminelogo.svg' alt='logo'/>
                 <div className='aboutCeohead'>
                     <p>“Bitcoin is not only a currency of the future, but the
                     revolution of traditional currencies and banking systems.”</p>

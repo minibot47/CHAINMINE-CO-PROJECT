@@ -23,11 +23,16 @@ header{
     height: 30px;
 
 }
+.headerlogo2 img{
+    height: 20px;
+
+}
 .headerstatistics{
     display: flex;
     gap: 1.5rem;
     align-items: center;
     color: white;
+    margin-left: -200px;
 }
 .headerstatistics p{
 
@@ -76,6 +81,7 @@ header{
     display: flex;
     gap: 1.5rem;
     cursor: pointer;
+    margin-left: -120px;
 }
 .headernavigate p:hover{
     background-color: rgba(25, 202, 158, 0.178);
