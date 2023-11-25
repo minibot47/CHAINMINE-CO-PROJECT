@@ -17,13 +17,13 @@ function App() {
     <Header/>
     {/* <Signup/> */}
     {/* <Login/> */}
-    <FirstPage/>
+    {/* <FirstPage/> */}
     {/* <Hompage/> */}
     {/* <Pricing/> */}
     {/* <Affiliate/> */}
     {/* <Insights/> */}
-    {/* <About/> */}
-    {/* <Footer/> */}
+    <About/>
+    <Footer/>
 
     </>
   )

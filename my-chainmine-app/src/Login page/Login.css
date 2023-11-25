@@ -1,10 +1,11 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: rgb(201, 253, 235);
 }
 .loginbg{
     height: 40vh;
-    background-color: rgb(23, 63, 28);
+    background-color: rgb(0,67,70);
     display: flex;
     justify-content: center;
     align-items: end;
@@ -25,7 +26,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
 }
 .loginformContent{
     margin-top: 123px;
@@ -33,6 +33,9 @@ body{
     /* background-color: pink; */
     width: 24%;
     padding: 20px;
+}
+.loginformContent input::placeholder{
+    color: rgb(25, 202, 158);
 }
 
 .loginname{
@@ -61,19 +64,25 @@ body{
     align-items: center;
     gap: 1rem;
 }
+.loginforgotbtn p{
+    color: rgb(25, 202, 158);
+}
 .loginforgotbtn button{
     padding: 8px 16px;
     width: 150px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    color: white;
+    background-color: rgb(0,67,70);
 
 }
 .loginname input, .loginpassword input, .loginemail input{
-    width: 250px;
+    width: 265px;
     height: 30px;
     border: none;
     border-radius: 5px;
+    filter: drop-shadow(0 3px 5px rgb(201, 199, 199));
 }
 .loginupdate{
     display: flex;
@@ -82,16 +91,21 @@ body{
     background-color: white;
     border-radius: 3px;
     padding-left: 5px;
+    margin-top: 45px;
 }
 
 .loginupdateContent h5{
     margin-bottom: 0;
     margin: 13px;
     margin-left: 0;
+    color: rgb(0,67,70);
 }
 .loginupdateContent p{
     margin-top: 8px;
     font-size: .9rem;
+    color: grey;
+    margin-bottom: 10px;
+    line-height: 1rem;
   
 
 }

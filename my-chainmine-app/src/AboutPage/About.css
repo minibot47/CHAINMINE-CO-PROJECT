@@ -1,10 +1,11 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: rgb(201, 253, 235);
 }
 .aboutbg{
     height: 40vh;
-    background-color: rgb(23, 63, 28);
+    background-color: rgb(0,67,70);
     display: flex;
     justify-content: center;
     align-items: end;
@@ -13,7 +14,6 @@ body{
 .aboutbgText{
     width: 100%;
     height: 100px;
-    /* background-color: aqua; */
 }
 .aboutbgText h3{
     font-size: 3rem;
@@ -24,35 +24,47 @@ body{
 .aboutCeo{
     margin-top: 100px;
     width: 100%;
-    background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .aboutCeoContainer{
     text-align: center;
-    /* background-color: blue; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .aboutCeocontent{
     width: 80%;
-    /* background-color: green; */
     display: flex;
     flex-direction: column;
 
     justify-content: center;
     align-items: center;
 }
+.aboutCeocontent img{
+    height: 60px;
+}
+#topceo{
+    height: 100px;
+}
 .aboutCeohead{
     width: 80%;
-    background-color: green;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    filter: drop-shadow(0 6px 9px rgb(150, 150, 150));
+    padding: 40px;
 
 }
 .aboutCeohead p{
     font-size: 1.2rem;
+    color: grey;
+    font-weight: 300;
     /* background-color: pink; */
+}
+.aboutCeohead h5{
+    color: rgb(25, 202, 158);
+    font-weight: 500;
 }
 
 .aboutsymbolContainer{
@@ -62,7 +74,6 @@ body{
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
-    background-color: red;
 
 }
 .aboutsymbolContent{
@@ -70,6 +81,10 @@ body{
     justify-content: center;
     align-items: center;
     width: 65%;
+    
+}
+.aboutsymbolContent img{
+    height: 100px;
 }
 .aboutsymbol01,.aboutsymbol02,.aboutsymbol03,.aboutsymbol04{
     text-align: center;
@@ -119,6 +134,12 @@ body{
 
 .mapLeft{
     width: 43%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mapLeft img{
+    height: 300px;
 }
 .mapRight{
     width: 43%;
@@ -137,17 +158,37 @@ body{
     line-height: 1.5rem;
 
 }
+.mapButton{
+    display: flex;
+    margin-top: 25px;
+}
+.mapButton img{
+    height: 30px;
+}
 #mapfaqs{
-    padding: 10px 23px;
-    background-color: rgb(20, 88, 20);
+    padding: 8px 20px;
+    background-color: rgb(0,67,70);
     border: none;
+    width: 140px;
     border-radius: 5px;
     color: white;
+    display: flex;
+    font-size: 1.1rem;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 #maplicense{
-    padding: 10px 0px;
+    padding: 8px 20px;
+    cursor: pointer;
     width: 200px;
-    background-color: rgb(41, 226, 41);
+    font-size: 1.1rem;
+    background-color: rgb(25, 202, 158);
     border: none;
+    width: 220px;
     border-radius: 5px;
+    color: rgb(0,67,70);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

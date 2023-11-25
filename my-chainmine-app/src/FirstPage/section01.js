@@ -34,26 +34,26 @@ const Section01 = () => {
 
            {/* LOGIN && START NOW */}
             <div className='section02Button'>
-                <button id='secton02login' className=''> <img src='/images/logo.png' alt='O'/> Log in</button>
-                <button id='secton02startnow' className=''> <img src='/images/logo.png' alt='O'/> Start now</button>
+                <button id='section02login'> <img src='/images/logo.png' alt='O'/> Log in</button>
+                <button id='secton02startnow'> <img src='/images/logo.png' alt='O'/> Start now</button>
             </div>
 
             {/* REVIEW */}
-            <div className='section02Review'>
+            {/* <div className='section02Review'>
               <div className='section02Reviewcontent'>
                 <p>See our <span>13,762</span> reviews on  
                  <img src='/images/logo.png' alt='logo'/>
                  Trustpilot
                 </p>
               </div>
-            </div>
+            </div> */}
 
             {/* SECTION02 FLEX(GRID) */}
 
             <div className='section02Flex01'>
               <div className='section02flex011'>
               <img src='/images/logo.png' alt='logo'/>
-              <h2><span style={{color: 'rgb(144, 238, 144)'}}>Your</span> freedom to mine <span style={{color: 'rgb(144, 238, 144)'}}>your</span> Bitcoins</h2>
+              <h2><span style={{color: ' rgb(25, 202, 158)'}}>Your</span> freedom to mine <span style={{color: 'rgb(25, 202, 158)'}}>your</span> Bitcoins</h2>
               <p>Bitcoin Cloud Mining is an easy way to mine bitcoins without buying them.
                  You get the power of online mining without the need for expensive hardware.
                   You can set your own prices and customize your mining process on your own terms.
@@ -62,7 +62,7 @@ const Section01 = () => {
               </div>
               <div className='section02flex012'>
               <img src='/images/logo.png' alt='logo'/>
-              <h2><span style={{color: 'rgb(144, 238, 144)'}}>Easy</span> to start, <span style={{color: 'rgb(144, 238, 144)'}}>no setup</span> required</h2>
+              <h2><span style={{color: 'rgb(25, 202, 158)'}}>Easy</span> to start, <span style={{color: 'rgb(25, 202, 158)'}}>no setup</span> required</h2>
               <p>After successful registration and receiving our free bonus, our cloud 
                 miners will start directly and mine your Bitcoins, day and night
                  - anytime without interruptions.
@@ -71,7 +71,7 @@ const Section01 = () => {
               </div>
               <div className='section02flex013'>
               <img src='/images/logo.png' alt='logo'/>
-              <h2><span style={{color: 'rgb(144, 238, 144)'}}>Transfer</span> your <span style={{color: 'rgb(144, 238, 144)'}}>earnings</span> today</h2>
+              <h2><span style={{color: 'rgb(25, 202, 158)'}}>Transfer</span> your <span style={{color: 'rgb(25, 202, 158)'}}>earnings</span> today</h2>
               <p>Receive your Bitcoins directly into a Bitcoin wallet of your choice
                  or exchange them and purchase even more hardware power, directly
                   with one-click and no waiting time to increase your mining earnings even more!
@@ -87,14 +87,14 @@ const Section01 = () => {
                   <div className='section02minerLeft'>
                     <p id='section02timer'>Ends in <span>04:11:33:20</span></p>
                     <h2 id='section02limited'>Limited Summer Special Gift</h2>
-                    <h1 id='section02minePower'>Free <span style={{color: 'rgb(144, 238, 144)'}}>1000 GH/s</span> Miner Power</h1>
-                    <p id='section02message'>Sign up today and get <span style={{color:'green'}}>1000 GH/s = 1 TH/s</span> miner 
+                    <h1 id='section02minePower'>Free <span style={{color: 'rgb(25, 202, 158)'}}>1000 GH/s</span> Miner Power</h1>
+                    <p id='section02message'>Sign up today and get <span style={{color:'rgb(0,67,70)'}}>1000 GH/s = 1 TH/s</span> miner 
                       power for your cloud hardware immediately and without obligation!</p>
 
                   </div>
 
                   <div className='section02minerRight'>
-                  <button id='section02minersignup'><img src='/images/logo.png' alt='O'/> Sign up</button>
+                  <button id='section02minersignup'><img src='/images/logo.png' alt='O'/> Sign Up Now</button>
 
                   </div>
                 </div>
@@ -132,7 +132,7 @@ const Section01 = () => {
             {/* LINER */}
             <div className='section02linerContainer'>
               <div className='section02linerContent'>
-                <p>Get <span id='section02linerlink'>FREE EXTRA</span> hardware power for <span id='linerlink'>EVERY</span> purchase made by your referrals.
+                <p>Get <span id='section02linerlink'>FREE EXTRA</span> hardware power for <span id='section02linerlink'>EVERY</span> purchase made by your referrals.
                 </p>
                 <button className='section02learnMore'><img src='/images/logo.png' alt='O'/>Learn more</button>
               </div>
@@ -162,7 +162,7 @@ const Section01 = () => {
             <div className='section03rightContainer'>
                 <div className='section03rightContent'>
                   <h5>Maximum control, just a click away</h5>
-                  <h1>Manage <span style={{color: 'red'}}>your</span> Cloud Miner</h1>
+                  <h1>Manage <span style={{color:'rgb(25, 202, 158)'}}>your</span> Cloud Miner</h1>
                   <p>See live stats, manage and upgrade your Bitcoin Cloud 
                     miners at any time in your personal dashboard. Calculate
                     future mining earnings in just a few clicks or recruit new
@@ -181,7 +181,7 @@ const Section01 = () => {
         <div className='section03down'>
           <div className='section03downtext'>
             <h5>Bitcoin cloud mining perfected</h5>
-            <h1>Mine <span style={{color: 'red'}}>your</span> own Bitcoins today</h1>
+            <h1>Mine <span style={{color:'rgb(25, 202, 158)'}}>your</span> own Bitcoins today</h1>
             <div className='section03ulContainer'>
               <ul>
                 <li>Top hardware from Bitmain & Whatsminer</li>

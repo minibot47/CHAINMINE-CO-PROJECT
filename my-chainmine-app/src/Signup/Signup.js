@@ -15,7 +15,7 @@ const Signup = () => {
      {/* FORM ASPECT */}
      <div className='signupForm'>
        <div className='signupformContent'>
-        <form>
+        <form className='form'>
           <div className='signupname'>
           <img src='/images/logo.png' alt='O'/>
           <input type='text'id='signupname' name='signupname' placeholder='New Username'/>
@@ -40,7 +40,7 @@ const Signup = () => {
 
      <div className='signuptermsofservice'>
       <div className='signuptermsofserviceContent'>
-        <p>By clicking Sign Up, you are indicating that you have read and acknowledge our Terms of Service.</p>
+        <p>By clicking Sign Up, you are indicating that you have read and acknowledge our <span style={{color: 'rgb(25, 202, 158)'}}>Terms of Service.</span></p>
       </div>
      </div>
       </div>

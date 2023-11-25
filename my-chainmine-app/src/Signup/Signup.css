@@ -1,10 +1,11 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: rgb(201, 253, 235);
 }
 .signupbg{
     height: 40vh;
-    background-color: rgb(32, 104, 41);
+    background-color: rgb(0,67,70);
     display: flex;
     justify-content: center;
     align-items: end;
@@ -21,11 +22,13 @@ body{
     margin-left: 100px;
     color: white;
 }
+.signupformContent input::placeholder{
+    color: rgb(25, 202, 158);
+}
 .signupForm{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(151, 44, 44)
 }
 .signupformContent{
     margin-top: 100px;
@@ -72,6 +75,8 @@ body{
     width: 150px;
     border: none;
     border-radius: 5px;
+    color: white;
+    background-color: rgb(0,67,70);
 
 }
 .signupname input, .signuppassword input, .signupemail input{
@@ -79,6 +84,7 @@ body{
     height: 30px;
     border: none;
     border-radius: 5px;
+    filter: drop-shadow(0 3px 5px rgb(201, 199, 199));
 }
 .signuptermsofservice{
     display: flex;

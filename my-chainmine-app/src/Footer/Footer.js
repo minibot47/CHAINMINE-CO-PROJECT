@@ -8,6 +8,11 @@ const Footer = () => {
         
         <div className='footer'>
         <div className='footerContent'>
+
+          <div className='footerImage'>
+            <img src='/images/logo.png'/>
+
+          </div>
           <div className='footer1'>
             <p>Home</p>
             <p>Pricing</p>

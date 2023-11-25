@@ -2,10 +2,23 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: rgb(0, 255, 115);
-    height: 25vh;
-}
+    background-color: rgb(255, 255, 255);
+    height: 28vh;
+    color: rgb(158, 156, 156);
+    filter: drop-shadow(0px 4px 9px rgb(138, 136, 136));
 
+}
+.footerImage{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+    width: 100%;
+    
+}
+.footerImage img{
+    height: 40px;
+
+}
 .footer1{
     display: flex;
     gap: 1rem;
@@ -24,6 +37,7 @@
     justify-content: center;
     width: 100%;
     margin-top: 15px;
+    font-size: .9rem;
     
 }
 .footer1 p,.footer2 p, .footer3 p{

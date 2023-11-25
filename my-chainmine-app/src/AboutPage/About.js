@@ -17,11 +17,11 @@ const About = () => {
     <div className='aboutCeo'>
         <div className='aboutCeoContainer'>
             <div className='aboutCeocontent'>
-                <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>
+                <img id='topceo' src='/images/logo.png' alt='logo'/>
                 <div className='aboutCeohead'>
                     <p>“Bitcoin is not only a currency of the future, but the
                     revolution of traditional currencies and banking systems.”</p>
-                    <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>
+                    <img src='/images/logo.png' alt='logo'/>
                     <h5>— Travis Casey, CEO of ChainMine</h5>
                 </div>
             </div>
@@ -34,22 +34,22 @@ const About = () => {
         <div className='aboutsymbolContainer'>
               <div className='aboutsymbolContent'>
                 <div className='aboutsymbol01'>
-                  <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>
+                  <img src='/images/logo.png' alt='logo'/>
                   <p>SSL Certified Platform</p>
 
                 </div>
                 <div className='aboutsymbol02'>
-                  <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>
+                  <img src='/images/logo.png' alt='logo'/>
                   <p>UK Approved Company</p>
 
                 </div>
                 <div className='aboutsymbol03'>
-                  <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>
+                  <img src='/images/logo.png' alt='logo'/>
                   <p>Member of the Blockchain Association</p>
 
                 </div>
                 <div className='aboutsymbol04'>
-                  <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>
+                  <img src='/images/logo.png' alt='logo'/>
                   <p>Associated with the Financial Commission</p>
 
                 </div>
@@ -86,7 +86,7 @@ const About = () => {
     <div className='mapContainer'>
         <div className='mapContent'>
             <div className='mapLeft'>
-            <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>
+            <img src='/images/logo.png' alt='logo'/>
             </div>
 
             <div className='mapRight'>
@@ -98,8 +98,8 @@ const About = () => {
                 <p>ChainMine, 185 Gloucester Place, London England, NW1 6BU</p>
 
                 <div className='mapButton'>
-                    <button id='mapfaqs'><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>FAQs</button>
-                    <button id='maplicense'><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Download License</button>
+                    <button id='mapfaqs'><img src='/images/logo.png' alt='logo'/>FAQs</button>
+                    <button id='maplicense'><img src='/images/logo.png' alt='logo'/>Download License</button>
                 </div>
             </div>
         </div>

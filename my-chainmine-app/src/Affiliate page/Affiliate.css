@@ -1,10 +1,12 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: rgb(201, 253, 235);   
+    
 }
 .affiliatebg{
     height: 40vh;
-    background-color: rgb(23, 63, 28);
+    background-color: rgb(0,67,70);
     display: flex;
     justify-content: center;
     align-items: end;
@@ -37,16 +39,17 @@ body{
     justify-content: center;
     width: 75%;
     height: 35vh;
-    background-color: rgb(187, 187, 187);
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     padding: 8px 0;
+    filter: drop-shadow(0 5px 7px rgb(201, 199, 199));
 }
 .affiliatecommissionBox{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 88%;
-    /* background-color: cornflowerblue; */
+  
 
 }
 .affiliatecommissionLeft{
@@ -55,9 +58,11 @@ body{
 .affiliatecommissionLeft h3 {
     font-weight: 450;
     margin: 0;
+    color: rgb(0,67,70);
 }
 .affiliatecommissionLeft h1 {
     margin: 0;
+    color: rgb(0,67,70);
 }
 .affiliatecommissionLeft p {
     color: grey;
@@ -66,6 +71,9 @@ body{
 .affiliatecommissionRight{
     flex: 1;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .affiliatecommissionRight button{
@@ -77,14 +85,20 @@ body{
     font-size: 1rem;
 }
 #affiliatecommissionsignup{
-    background-color: lightgreen;
+    background-color: rgb(25, 202, 158);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  rgb(0,67,70);
+}
+#affiliatecommissionsignup img{
+    height: 30px;
 }
 
 .affiliaterefferalSystem{
     margin-top: 60px;
     margin-bottom: 130px;
     width: 100%;
-    background-color: rgb(0, 255, 179);
     display: flex;
     justify-content: center;
     align-items: start;
@@ -94,12 +108,16 @@ body{
 .affiliaterefferalSystemLeft{
     text-align: center;
     width: 45%;
-    background-color: aqua;
 
 }
 .affiliaterefferalSystemLeft h1{
+    color: rgb(0,67,70);
     margin: 0;
     font-size: 2.4rem;
+}
+.affiliaterefferalSystemLeft h3{
+    color: rgb(0,67,70);
+
 }
 .affiliaterefferalUl{
     display: flex;
@@ -113,6 +131,7 @@ body{
     font-size: 1.1rem;
     letter-spacing: 1.5px;
     margin: 0;
+    color: grey;
 
 }
 .affiliaterefferalUl h1{
@@ -121,22 +140,28 @@ body{
 
 }
 .affiliaterefferalSystemLeft button{
-    background-color: rgb(90, 218, 90);
+    background-color: rgb(0,67,70);
     padding: 11px 22px;
     border-radius: 4px;
     width: 250px;
     border: none;
+    color: white;
     font-size: 1.1rem;
 }
 
 .affiliaterefferalSystemRight{
     text-align: left;
     width: 44%;
-    background-color: aqua;
 
 }
 .affiliaterefferalSystemRight h1{
     margin: 0;
+    color: rgb(0,67,70);
+
+}
+.affiliaterefferalSystemRight h3{
+    color: rgb(0,67,70);
+    font-weight: 500;
 
 }
 .affiliaterefferalContainerRight{
@@ -145,6 +170,7 @@ body{
 }
 .affiliaterefferalContainerRight p{
     margin-top: 10px;
+    color: grey;
 
 }
 

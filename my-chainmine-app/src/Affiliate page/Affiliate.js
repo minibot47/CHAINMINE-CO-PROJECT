@@ -19,7 +19,7 @@ const Affiliate = () => {
                 <div className='affiliatecommissionBox'>
                   <div className='affiliatecommissionLeft'>
                     <h3 id='affiliatecommissionlimited'>Additional hash power for every customer</h3>
-                    <h1 id='affiliatecommissionPower'>Get up to <span style={{color: 'rgb(144, 238, 144)'}}>7+2+1% </span> commission</h1>
+                    <h1 id='affiliatecommissionPower'>Get up to <span style={{color: 'rgb(25, 202, 158)'}}>7+2+1% </span> commission</h1>
                     <p id='affiliatecommissionmessage'> Sign up now and invite new customers with your personal referral link. Receive up to 10% 
                     commission in the form of additional hashpower.
                       </p>
