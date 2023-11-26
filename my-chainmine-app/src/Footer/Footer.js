@@ -27,7 +27,7 @@ const Footer = () => {
           <div className='footer2'>
           <Link to='/Insights' style={{ textDecoration: 'none' }}><p>Insight</p></Link>
             <Link to='/Login' style={{ textDecoration: 'none' }}><p>Sign in</p></Link>
-            <Link to='' style={{ textDecoration: 'none' }}><p>Forgot password</p></Link>
+            <Link to='/Forgot' style={{ textDecoration: 'none' }}><p>Forgot password</p></Link>
             <Link to='/Signup' style={{ textDecoration: 'none' }}><p>Sign up</p></Link>
           </div>
   

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Login.css'
+import {Link} from 'react-router-dom'
 
 
 const Login = () => {
@@ -28,7 +29,7 @@ const Login = () => {
           </div>
 
           <div className='loginforgotbtn'>
-            <p>Forgot password ?</p>
+            <Link to='/Forgot' style={{ textDecoration: 'none' }}><p>Forgot password ?</p></Link>
             <button> Continue</button>
           </div>
         </form>

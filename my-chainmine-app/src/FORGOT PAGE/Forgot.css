@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(201, 253, 235);
+}
+.forgotbg{
+    height: 40vh;
+    background-color: rgb(0,67,70);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+.forgotbgText{
+    width: 100%;
+    height: 100px;
+    /* background-color: aqua; */
+}
+.forgotbgText h3{
+    font-size: 3rem;
+    margin: 0;
+    margin-left: 100px;
+    color: white;
+}
+.forgotForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forgotformContent{
+    margin-top: 90px;
+    margin-bottom: 100px;
+    width: 24%;
+    padding: 20px;
+}
+.forgotformContent input::placeholder{
+    color: rgb(25, 202, 158);
+}
+
+.forgotname{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 0.5rem;
+}
+.forgotname img{
+    height: 20px;
+}
+.forgotpassword{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.forgotpassword img{
+    height: 20px;
+}
+
+.forgotforgotbtn{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+.forgotforgotbtn p{
+    color: rgb(25, 202, 158);
+}
+.forgotforgotbtn button{
+    padding: 8px 16px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(0,67,70);
+
+}
+.forgotname input{
+    width: 265px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    filter: drop-shadow(0 3px 5px rgb(201, 199, 199));
+}
+.forgotupdate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 3px;
+    padding-left: 5px;
+    margin-top: 45px;
+}
+
+.forgotupdateContent h5{
+    margin-bottom: 0;
+    margin: 13px;
+    margin-left: 0;
+    color: rgb(0,67,70);
+}
+.forgotupdateContent p{
+    margin-top: 8px;
+    font-size: .9rem;
+    color: grey;
+    margin-bottom: 10px;
+    line-height: 1rem;
+  
+
+}

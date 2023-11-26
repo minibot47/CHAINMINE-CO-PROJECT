@@ -2,6 +2,7 @@ import './App.css';
 import Header from './Header/Header';
 import Signup from'./Signup/Signup';
 import Login from './Login page/Login';
+import Forgot from './FORGOT PAGE/Forgot';
 import FirstPage from './FirstPage/FirstPage'
 import Hompage from './Homepage/Homepage'
 import Pricing from './Pricing/Pricing'
@@ -22,6 +23,7 @@ function App() {
       <Route element={<Login/>} path='/Login'/>
       <Route element={<FirstPage/>} path='/'/>
       <Route element={<Pricing/>} path='/Pricing'/>
+      <Route element={<Forgot/>} path='/Forgot' />
     {/* <Hompage/> */}
     <Route element={<Affiliate/>} path='/Affiliate'/>
     <Route element={<Insights/>} path='/Insights'/>
