@@ -39,7 +39,6 @@ function App() {
     {/* <Faqs/> */}
     <Terms/>
     <Footer/>
-    
     </BrowserRouter>
   
   )
