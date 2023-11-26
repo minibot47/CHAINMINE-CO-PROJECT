@@ -1,5 +1,6 @@
 import React from 'react'
 import './Signup.css'
+import {Link} from 'react-router-dom'
 
 const Signup = () => {
   return (
@@ -32,7 +33,7 @@ const Signup = () => {
           </div>
 
           <div className='signupcontinuebtn'>
-            <button> Continue</button>
+          <Link to='/Hompage' style={{ textDecoration: 'none' }}><button> Continue</button></Link>
           </div>
         </form>
 

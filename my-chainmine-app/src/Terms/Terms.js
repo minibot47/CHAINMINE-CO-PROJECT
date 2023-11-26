@@ -1,5 +1,6 @@
 import React from 'react'
 import './Terms.css'
+import {Link} from 'react-router-dom'
 
 const Terms = () => {
   return (

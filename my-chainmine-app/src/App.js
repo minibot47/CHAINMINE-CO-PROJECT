@@ -27,17 +27,13 @@ function App() {
       <Route element={<FirstPage/>} path='/'/>
       <Route element={<Pricing/>} path='/Pricing'/>
       <Route element={<Forgot/>} path='/Forgot' />
-    {/* <Hompage/> */}
+    <Route element={<Hompage/>} path='/<Hompage'/>
+    <Route element={<Terms/>} path='/Terms'/>
+    <Route element={<Faqs/>} path='/Faqs'/>
     <Route element={<Affiliate/>} path='/Affiliate'/>
     <Route element={<Insights/>} path='/Insights'/>
     <Route element={<About/>} path='/About'/>
     </Routes>
-    {/* <Pricing/> */}
-    {/* <Affiliate/> */}
-    {/* <Insights/> */}
-    {/* <About/> */}
-    {/* <Faqs/> */}
-    <Terms/>
     <Footer/>
     </BrowserRouter>
   

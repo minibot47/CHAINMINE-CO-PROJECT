@@ -30,7 +30,7 @@ const Login = () => {
 
           <div className='loginforgotbtn'>
             <Link to='/Forgot' style={{ textDecoration: 'none' }}><p>Forgot password ?</p></Link>
-            <button> Continue</button>
+            <Link to='/Hompage' style={{ textDecoration: 'none' }}><button> Continue</button></Link>
           </div>
         </form>
 

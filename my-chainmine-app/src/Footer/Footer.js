@@ -24,9 +24,9 @@ const Footer = () => {
            <Link to='/Pricing' style={{ textDecoration: 'none' }}> <p>Pricing</p></Link>
             <Link to='/Affiliate' style={{ textDecoration: 'none' }}> <p>Affiliate</p></Link>
             <Link to='/Insights' style={{ textDecoration: 'none' }}><p>Insights</p></Link>
-            <p>FAQs</p>
+            <Link to='/Faqs' style={{ textDecoration: 'none' }}><p>FAQs</p></Link>
             <Link to='/About' style={{ textDecoration: 'none' }}><p>About</p></Link>
-            <Link to='' style={{ textDecoration: 'none' }}><p>Terms of Service</p></Link>
+            <Link to='/Terms' style={{ textDecoration: 'none' }}><p>Terms of Service</p></Link>
           </div>
   
           <div className='footer2'>
