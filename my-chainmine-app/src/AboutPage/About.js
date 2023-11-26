@@ -99,7 +99,7 @@ const About = () => {
 
                 <div className='mapButton'>
                     <button id='mapfaqs'><img src='/images/logo.png' alt='logo'/>FAQs</button>
-                    <Link target='_blank' to='https://chainmine.pro/uk_gov_102904820.pdf'><button id='maplicense'><img src='/images/logo.png' alt='logo'/>Download License</button></Link>
+                    <Link target='_blank' to='https://chainmine.pro/uk_gov_102904820.pdf' style={{ textDecoration: 'none' }}><button id='maplicense'><img src='/images/logo.png' alt='logo'/>Download License</button></Link>
                 </div>
             </div>
         </div>

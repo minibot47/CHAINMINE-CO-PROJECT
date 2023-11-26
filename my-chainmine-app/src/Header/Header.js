@@ -52,18 +52,18 @@ const Header = () => {
                 {/* LOGO */}
 
                 <div className='headerlogo2'>
-                <Link to='/'><img src='/images/chainminelogo.svg' alt='logo'/></Link>
+                <Link to='/' ><img src='/images/chainminelogo.svg' alt='logo'/></Link>
                 </div>
 
                 {/* NAVIGATION BAR */}
 
                 <div className='headernavigate'>
-                <Link to='/'><p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Home</p></Link>
-                    <Link to='/'><p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Pricing</p></Link>
-                    <Link to='/Affiliate'><p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Affiliate <span id='freebtc'>Free BTC</span></p></Link>
-                    <Link to='/Insights'><p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Insights</p></Link>
-                    <Link to=''><p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>FAQs</p></Link>
-                   <Link to='/About'><p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>About</p></Link>
+                <Link to='/' style={{ textDecoration: 'none' }}><p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Home</p></Link>
+                    <Link to='/Pricing' style={{ textDecoration: 'none' }}><p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Pricing</p></Link>
+                    <Link to='/Affiliate' style={{ textDecoration: 'none' }}><p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Affiliate <span id='freebtc'>Free BTC</span></p></Link>
+                    <Link to='/Insights' style={{ textDecoration: 'none' }}><p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Insights</p></Link>
+                    <Link to='/FAQs' style={{ textDecoration: 'none' }}><p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>FAQs</p></Link>
+                   <Link to='/About' style={{ textDecoration: 'none' }}><p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>About</p></Link>
 
                 </div>
 
@@ -71,9 +71,9 @@ const Header = () => {
 
                 <div className='headersignUpIn'>
 
-                    <Link to='/Login'><button id='headersignin'><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/> Sign in </button></Link>
+                    <Link to='/Login' style={{ textDecoration: 'none' }}><button id='headersignin'><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/> Sign in </button></Link>
 
-                   <Link to='/Signup'> <button id='headersignup'><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/> Sign up</button> </Link>
+                   <Link to='/Signup' style={{ textDecoration: 'none' }}> <button id='headersignup'><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/> Sign up</button> </Link>
                 </div>
 
 

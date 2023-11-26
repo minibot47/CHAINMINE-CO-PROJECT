@@ -35,8 +35,8 @@ const Section01 = () => {
 
            {/* LOGIN && START NOW */}
             <div className='section02Button'>
-            <Link to='/Login'><button id='section02login'> <img src='/images/logo.png' alt='O'/> Log in</button></Link>
-            <Link to='/Signup'><button id='secton02startnow'> <img src='/images/logo.png' alt='O'/> Start now</button></Link>
+            <Link to='/Login' style={{ textDecoration: 'none' }}><button id='section02login'> <img src='/images/logo.png' alt='O'/> Log in</button></Link>
+            <Link to='/Signup' style={{ textDecoration: 'none' }}><button id='secton02startnow'> <img src='/images/logo.png' alt='O'/> Start now</button></Link>
             </div>
 
             {/* REVIEW */}
@@ -95,7 +95,7 @@ const Section01 = () => {
                   </div>
 
                   <div className='section02minerRight'>
-                  <Link to='/Signup'><button id='section02minersignup'><img src='/images/logo.png' alt='O'/> Sign Up Now</button></Link> 
+                  <Link to='/Signup' style={{ textDecoration: 'none' }}><button id='section02minersignup'><img src='/images/logo.png' alt='O'/> Sign Up Now</button></Link> 
 
                   </div>
                 </div>
@@ -135,7 +135,7 @@ const Section01 = () => {
               <div className='section02linerContent'>
                 <p>Get <span id='section02linerlink'>FREE EXTRA</span> hardware power for <span id='section02linerlink'>EVERY</span> purchase made by your referrals.
                 </p>
-                <Link to='/Affiliate'><button className='section02learnMore'><img src='/images/logo.png' alt='O'/>Learn more</button></Link>
+                <Link to='/Affiliate' style={{ textDecoration: 'none' }}><button className='section02learnMore'><img src='/images/logo.png' alt='O'/>Learn more</button></Link>
               </div>
             </div>
 

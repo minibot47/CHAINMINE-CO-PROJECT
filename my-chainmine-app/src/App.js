@@ -21,8 +21,8 @@ function App() {
       <Route element={<Signup/>} path='/Signup'/>
       <Route element={<Login/>} path='/Login'/>
       <Route element={<FirstPage/>} path='/'/>
+      <Route element={<Pricing/>} path='/Pricing'/>
     {/* <Hompage/> */}
-    {/* <Pricing/> */}
     <Route element={<Affiliate/>} path='/Affiliate'/>
     <Route element={<Insights/>} path='/Insights'/>
     <Route element={<About/>} path='/About'/>

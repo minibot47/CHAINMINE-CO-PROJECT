@@ -28,7 +28,7 @@ const Affiliate = () => {
                   </div>
 
                   <div className='affiliatecommissionRight'>
-                  <Link to='/Signup'><button id='affiliatecommissionsignup'><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/> Sign Up Now</button></Link>
+                  <Link to='/Signup' style={{ textDecoration: 'none' }}><button id='affiliatecommissionsignup'><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/> Sign Up Now</button></Link>
 
                   </div>
                 </div>
@@ -50,7 +50,7 @@ const Affiliate = () => {
                     </ul>
                 </div>
 
-                <Link to='/Signup'><button>Get Your Link Today</button></Link>
+                <Link to='/Signup' ><button>Get Your Link Today</button></Link>
 
             </div>
             <div className='affiliaterefferalSystemRight'>
