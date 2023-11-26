@@ -10,7 +10,7 @@
 
 }
 
-.top-promotion{
+.transfer-top-promotion{
     font-size: 20px;
     background: rgb(159,224,185);
     background: linear-gradient(90deg, rgba(159,224,185,1) 3%, rgba(31,196,151,1) 29%, rgba(30,131,102,1) 49%, rgba(182,230,211,1) 70%, rgba(225,250,255,1) 86%);
@@ -22,10 +22,10 @@
     margin-left: -3.5%;
     width: 107%;
 }
-.top-promotion span,input,button{
+.transfer-top-promotion span,input,button{
     margin: 10px;
 }
-.top-promotion button{
+.transfer-top-promotion button{
     background-color: yellow;
     color: black;
     outline: none;
@@ -36,28 +36,29 @@
     cursor: pointer;
     
 }
-.top-promotion span{
+.transfer-top-promotion span{
     color: blue;
     text-decoration:underline
 }
 
-#top{
+#transfer-top{
     margin-top: 5%;
     margin-bottom: 0;
 }
-.transfer{
+.transfer-transfer{
     /* background-color: blue; */
     width: 80%;
     height: 40%;
     display: flex;
+    
 }
-.lefttransfer{
+.transfer-lefttransfer{
     /* background-color: red; */
     width: 40%;
     height: 80%;
 
 }
-.righttransfer{
+.transfer-righttransfer{
     margin-top: 5%;
     /* background-color: red; */
     width: 55%;
@@ -65,7 +66,7 @@
     margin-left: 5%;
 }
 
-.righttransfer h2{
+.transfer-righttransfer h2{
     margin-left: 10%;
 }
 
@@ -73,7 +74,7 @@
     
 } */
 
-#send{
+#transfer-send{
     margin-left: 10%;
     height: 35px;
     width: 20%;
@@ -85,7 +86,7 @@
     
 }
 
-#Address{
+#transfer-Address{
     width: 80%;
     height: 35px;
     border-radius: 0.3rem;
@@ -95,55 +96,108 @@
     padding-left: 10px;
 
 }
-
-#amount{
-    width: 60%;
-    height: 35px;
-    outline: 0 solid blue;
-    border: 0 none white;
-    padding-left: 10px;
+.transfer-amount{
+    width: 90%;
+    height: 40px;
     font-size: 20px;
-    box-shadow: 10px 8px 20px 0px rgba(0, 0, 0, 0.314);
+    
+    display: flex;
+    align-items: center;
 }
 
-#option{
-    width: 18%;
-    height: 37px;
-    margin-left: -1px;
+#transfer-amount{
+    width: 80%;
+    margin: 0%;
+    height: 90%;
+    border: none;
+    margin-left: 3%;
+    font-size: 15px;
+    border-radius: 0.3rem;
+    box-shadow: 10px 8px 20px 0px rgba(0, 0, 0, 0.314);
+
+}
+
+
+
+
+#transfer-option{
+    width: 20%;
+    height: 95%;
     font-size: 17px;
+    margin-left: -3px;
+    border: none;
     box-shadow: 10px 8px 20px 0px rgba(0, 0, 0, 0.314);
 
 
 }
 
-.text{
+.transfer-text{
     width: 120%;
+    margin-top: 3%;
 }
 
-.totalpayout{
+.transfer-totalpayout{
     background-color: rgb(39, 53, 16);
     display: flex;
     align-items: center;
     padding-left: 5%;
     border-radius: 0.3rem;
     height: 30%;
+    margin-top: 3%;
+    
 }
 
-.over{
+.transfer-over{
     width: 80%;
+    
 }
 
-.totalpayout1{
+.transfer-totalpayout1{
     display: flex;
     align-items: center;
     padding-left: 5%;
     margin-top: 5%;
+    height: 50px;
 }
 
-.over1{
+.transfer-over1{
     width: 80%;
 }
 
-.allyourupgrade{
+.transfer-allyourupgrade{
     margin-top: 15%;
+}
+
+.transfer-hashrate{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    margin-top:3% ;
+    margin-bottom:3% ;
+}
+.transfer-allyourupgrade{
+    margin-top: 12%;
+}
+
+.transfer-table{
+    margin-top: 3%;
+    display: flex;
+    gap: 10%;
+    background-color: darkolivegreen;
+    height: 40px;
+    align-items: center;
+    padding-left: 2%;
+    border-radius: 0.2rem;
+}
+
+.transfer-none{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(241, 234, 234);
+    width: 100%;
+    height: 40px;
+    border-radius: 0.2rem;
+    box-shadow: 10px 8px 20px 0px rgba(0, 0, 0, 0.314);
 }

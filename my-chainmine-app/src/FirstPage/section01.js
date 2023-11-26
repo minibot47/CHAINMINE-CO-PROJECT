@@ -1,6 +1,22 @@
 import React from 'react'
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 import './Section01.css'
 import {Link} from 'react-router-dom'
+=======
+import './section01.css'
+>>>>>>> Stashed changes
+=======
+import './section01.css'
+>>>>>>> Stashed changes
+=======
+import './section01.css'
+>>>>>>> Stashed changes
+=======
+import './section01.css'
+>>>>>>> Stashed changes
 
 const Section01 = () => {
   return (

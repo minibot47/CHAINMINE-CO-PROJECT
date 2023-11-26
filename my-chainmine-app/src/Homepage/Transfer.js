@@ -4,26 +4,26 @@ import './Transfer.css'
 const Transfer = () => {
   return (
     <div className='Transfer'>
-        <div className='top-promotion'>
+        <div className='transfer-top-promotion'>
             <span>FREE EXTRA</span>hardware power.share your link! <input type='text' value={'https://chainmine.org/?ref=aXCyHo23}'}></input> <button>Learn More</button>
         </div>
 
-        <h1 id='top'>Transfer BTC</h1>
+        <h1 id='transfer-top'>Transfer BTC</h1>
         <hr/>
-        <div className='transfer'>
-        <div className='lefttransfer'>
+        <div className='transfer-transfer'>
+        <div className='transfer-lefttransfer'>
             <h1>Payout overview</h1>
-            <div className='totalpayout'>
+            <div className='transfer-totalpayout'>
                 <img src='' alt='⚡'/>
-                <div className='over'>
+                <div className='transfer-over'>
                     <p>Total payout</p>
                     <p>0.00000000 BTC</p>
                 </div>
 
             </div>
-            <div className='totalpayout1'>
+            <div className='transfer-totalpayout1'>
                 <img src='' alt='⚡'/>
-                <div className='over1'>
+                <div className='transfer-over1'>
                     <p>Total payout</p>
                     <p>0.00000000 BTC</p>
                 </div>
@@ -32,13 +32,13 @@ const Transfer = () => {
             <hr/>
 
         </div>
-        <div className='righttransfer'>
+        <div className='transfer-righttransfer'>
             <h2>Withdrawal Amount</h2>
 
-            <div className='amount'>
+            <div className='transfer-amount'>
                 <img src='' alt='⚡'/>
-                <input type="number" id="amount" name="amount" min="0" max="1" step="0.001" placeholder='0.001'/>
-                <select id='option'>
+                <input type="number" id="transfer-amount" name="amount" min="0" max="1" step="0.001" placeholder='0.001'/>
+                <select id='transfer-option'>
                     <option>BTC</option>
                     <option>USD</option>
                     <option>EUR</option>
@@ -47,20 +47,20 @@ const Transfer = () => {
                     <option>RUB</option>
                 </select>
             </div>
-            <div className='hashrate'>
+            <div className='transfer-hashrate'>
                 <h3>MINIMUM:</h3>
                 <h3>0.00012000 BTC</h3>
             </div>
-            <div className='bitcoin'>
+            <div className='transfer-bitcoin'>
                 <h2>Bitcoin receiver address</h2>
                 <div>
                 <img src='' alt='⚡'/>
-                <input type="text" id="Address" name="Address"  placeholder='ADD BTC WALLET FOR WITHDRAWALS'/>
+                <input type="text" id="transfer-Address" name="Address"  placeholder='ADD BTC WALLET FOR WITHDRAWALS'/>
                 </div>
-                <button id='send'>Send</button>
+                <button id='transfer-send'>Send</button>
                 
             </div>
-            <div className='text'>
+            <div className='transfer-text'>
                 <p>
                     Please make sure that the Bitcoin address you provide is correct. The payment process cannot be reversed.
                 </p>
@@ -68,9 +68,9 @@ const Transfer = () => {
 
         </div>
         </div>
-        <div className='allyourupgrade'>
+        <div className='transfer-allyourupgrade'>
             <h1>All your upgrades</h1>
-            <div className='table'>
+            <div className='transfer-table'>
                 <h3>Transaction</h3>
                 <h3>Method</h3>
                 <h3>Status</h3>
@@ -78,7 +78,7 @@ const Transfer = () => {
                 <h3>Costs</h3>
                 <h3>Date & Time</h3>
             </div>
-            <div className='none'>
+            <div className='transfer-none'>
                 <h3>(none)</h3>
             </div>
         </div>

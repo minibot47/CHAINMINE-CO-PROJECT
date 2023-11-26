@@ -3,6 +3,11 @@ import './Footer.css';
 import {Link} from 'react-router-dom'
 
 const Footer = () => {
+  // const [Showfooter , setshowfooter] = useState(false);
+  // const HandleClick = () => {
+  //     setshowfooter(!Showfooter);
+  //     console.log('it works');
+  // }
   return (
     <>
         {/* FOOTER */}

@@ -1,12 +1,12 @@
 .Pricing{
     background-color: rgb(209, 240, 209);
     width: 100%;
-    height: 300vh;
+    height: 250vh;
     padding-top: 7.6%;
     
 }    
 
-.top-image{
+.pricing-top-image{
     height: 7%;
     background-color: blue;
     width: 100%;
@@ -14,7 +14,7 @@
     display: flex;
     align-items: center;
 }
-.top-image h1{
+.pricing-top-image h1{
     margin-left: 8%;
     display: flex;
     align-items: center;
@@ -22,126 +22,155 @@
 
 }
 
-.minepower{
+.pricing-minepower{
     width: 100%;
     margin-top: 5%;
     text-align: center;
     font-size: 25px;
 }
 
-.minepower h4 , h2{
+.pricing-minepower span{
+    color: green;
+}
+
+.pricing-minepower h4 , h2{
     margin: 0%;
 }
-.minepower span{
+.pricing-minepower span{
     color: darkolivegreen;
 }
 
-.paying{
+.pricing-paying{
     margin: auto;
     margin-top: 4%;
     width: 70%;
 }
 
-.future1{
-    display: block;
-    justify-self: center;
-    align-self: center;
+.pricing-future{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+
 }
-.future1 h1{
+.pricing-future h1{
     color: darkslategray;
+    margin-bottom: 2%;
 }
-.futuremining1{
+.pricing-futuremining{
+
     background-color: white;
     color: black;
-    height: 220px;
+    width: 90%;
+    height: 250px;
     padding: 50px;
     border-radius: 1rem;
     box-shadow: 10px 8px 20px 0px rgba(0, 0, 0, 0.314);
     display: flex;
 }
 
-.futureminingleft1 {
+.pricing-futureminingleft {
     width: 40%;
     border-right: 1px solid black;
-    padding-right: 3%;
+    padding-right: 15px;
 }
-.futureminingleft1 h2 {
+.pricing-futureminingleft h2 {
     text-align: center;
     font-size: 20px;
 }
-.futureminingleft1 select , option {
+.pricing-futureminingleft select , option {
     text-align: center;
     font-size: 18px;
     background-color: white;
     color: green;
+    margin-left: 0;
+    height: 35px;
+    border: none;
 }
 
-.amount1{
+.pricing-amount{
     display: flex;
     align-items: center;
 }
-.amount1 input{
-    width: 50%;
+.pricing-amount input{
+    width: 60%;
     height: 30px;
+    margin-right: 0;
+    border: 1px solid olivedrab;
+    border-radius: 0.3rem;
+    font-size: 20px;
 }
-.divide1{ 
+.pricing-divide{ 
     display: flex;
     justify-content: space-between;
+
 }
 
-
-.futureminingleft1 h3{
+.pricing-futureminingleft h3{
     font-size: 15px;
     margin: 0%;
-    margin-top: 1%;
+    margin-top: 2%;
 }
-.futureminingleft1 h2{
+.pricing-futureminingleft h2{
     margin-top: 0 ;
     font-size: 17px;
 
 }
-
-.futureminingright1{
+.pricing-futureminingright{
+    /* background-color: blue; */
     width: 50%;
-    height: 250px;
-    padding-left: 4%;
+
 }
-.futureminingright1 h2{
+
+.pricing-futureminingrightflex{
+    width: 100%;
+    height: 220px;
+    display: flex;
+}
+.pricing-futureminingright h2{
     margin-left: 3%;
     margin-top: 0 ;
     font-size: 17px;
     color: darkslategray;
+    
 
 }
-.estimate1{
+
+.pricing-estimate{
     margin-left: -10%;
     font-size: 12px;
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     margin-top: 0;
+    margin-left: 5%;
 }
-.estimate1 h3{
+.pricing-estimate h3{
     margin: 0.5rem;
     margin-top: 3%;
 
 }
-.estimate2{
-    font-size: 10px;
+.pricing-estimate1{
+    width: 80%;
+    margin-left: 5%;
+    font-size: 12px;
     display: flex;
     justify-content: space-between;
-    margin-left: 0%;
-    margin-right: 3%; 
-    width: 75%;
 }
-
-.bottom10{
+.pricing-futureminingright hr{
+    margin-bottom: 2%;
+    margin-top: 0%;
     margin-left: 5%;
-    margin-top: 2%;
-    color: gray;
-    text-align: center;
+    
 }
 
-.section03down1{
+.pricing-bottom{
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 3%;
+    color: gray;
+}
+
+.pricing-section03down1{
     margin-top: 60px;
     margin-bottom: 120px;
     width: 85%;
@@ -151,38 +180,38 @@
     gap: 4rem;
 
 }
-.section03downtext1{
+.pricing-section03downtext1{
     text-align: center;
     width: 44%;
     background-color: aqua;
 
 }
-.ulContainer1{
+.pricing-ulContainer1{
     display: flex;
     justify-content: center;
     align-items: center;
     /* background-color: grey; */
 
 }
-.section03downtext1 li{
+.pricing-section03downtext1 li{
     text-align: left;
 
 }
-.section03downtext1 button{
+.pricing-section03downtext1 button{
     background-color: green;
     padding: 11px 22px;
     border-radius: 4px;
     width: 160px;
     border: none;
 }
-.section03flex11{
+.pricing-section03flex11{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
     width: 50%;
 }
-.section03flex112,.section03flex21,.section03flex31{
+.pricing-section03flex112,.pricing-section03flex21,.pricing-section03flex31{
     height: 35vh;
     background-color: blue;
     border-radius: 7px;
@@ -190,26 +219,27 @@
 
 }
 
-.minerContainer1{
+.pricing-minerContainer1{
     width: 100%;
-    height: 20px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20%;
+    /* background-color: red; */
     /* background-color: rebeccapurple; */
 }
-.minerContent1{
+.pricing-minerContent1{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 70%;
+    height: 50%;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     padding: 40px 0;
     border: 4px dashed transparent;
 }
-.minerBox1{
+.pricing-minerBox1{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -217,16 +247,16 @@
     /* background-color: cornflowerblue; */
 
 }
-.minerLeft1{
+.pricing-minerLeft1{
     flex: 2;
 
 }
-.minerRight1{
+.pricing-minerRight1{
     flex: 1;
     text-align: center;
 
 }
-.minerRight1 button{
+.pricing-minerRight1 button{
     padding: 9px 18px;
     width: 130px;
     border-radius: 3.5px;
@@ -234,6 +264,30 @@
     cursor: pointer;
     font-size: 1rem;
 }
-#minersignup1{
+#pricing-minersignup1{
     background-color: lightgreen;
+}
+
+.pricing-aboutsymbolContainer{
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+.pricing-aboutsymbolContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    
+}
+.pricing-aboutsymbolContent img{
+    height: 100px;
+}
+.pricing-aboutsymbol01,.pricing-aboutsymbol02,.pricing-aboutsymbol03,.pricing-aboutsymbol04{
+    text-align: center;
+    flex: 1;
 }

@@ -10,7 +10,7 @@
 
 }
 
-.top-promotion{
+.partner-top-promotion{
     font-size: 20px;
     background: rgb(159,224,185);
     background: linear-gradient(90deg, rgba(159,224,185,1) 3%, rgba(31,196,151,1) 29%, rgba(30,131,102,1) 49%, rgba(182,230,211,1) 70%, rgba(225,250,255,1) 86%);
@@ -22,10 +22,10 @@
     margin-left: -3.5%;
     width: 107%;
 }
-.top-promotion span,input,button{
+.partner-top-promotion span,input,button{
     margin: 10px;
 }
-.top-promotion button{
+.partner-top-promotion button{
     background-color: yellow;
     color: black;
     outline: none;
@@ -36,23 +36,23 @@
     cursor: pointer;
     
 }
-.top-promotion span{
+.partner-top-promotion span{
     color: blue;
     text-decoration:underline
 }
 
-#top{
+#partner-top{
     margin-top: 5%;
     margin-bottom: 0;
 }
 
-.transfer{
+.partner-transfer{
     width: 80%;
     /* background-color: red; */
     height: 50%;
 }
 
-#option{
+#partner-option{
     width: 60%;
     height: 35px;
     background-color: darkolivegreen;
@@ -62,43 +62,56 @@
     box-shadow: none;
 }
 
-.over{
+.partner-over{
     color: white;
 }
 
-.totalpayout{
+.partner-totalpayout{
     width: 100%;
-    height: 25%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
 }
-.totalpayout1{
+.partner-totalpayout1{
     margin-top: 0;
     width: 100%;
-    height: 25%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
 }
 
-.lefttransfer{
-    width: 30%;
+.partner-transfer{
+    display: flex;
+    width: 100%;
 }
-.lefttransfer h1{
+
+.partner-lefttransfer{
+    width: 30%;
+    /* background-color: bisque; */
+}
+.partner-lefttransfer h1{
     width: 160%;
     font-size: 28px;
     /* background-color: blue; */
 }
 
-.bitcoin1{
+.partner-bitcoin1{
     /* background-color: yellow; */
     display: flex;
     align-items: center;
     width: 100%;
 }
 
-#referral{
+#partner-referral{
     width: 100%;
 }
 
-#reflink{
-    width: 100%;
-    margin: 0%;
+#partner-reflink{
+    width: 80%;
+    margin-top: 2%;
+    margin-left: 0;
     height: 30px;
     font-size: 18px;
     border-radius: 0.3rem;
@@ -108,30 +121,32 @@
 
 }
 
-.righttransfer{
+.partner-righttransfer{
     /* background-color: blue; */
-    margin-top: 8%;
-    height: 100%;
+    margin-top: 4%;
+    height: 90%;
+    width: 50%;
+    margin-left: 5%;
 }
 
-.bitcoin h3{
+.partner-bitcoin h3{
     margin-left: 10%;
     margin-top: 1%;
 }
 
-.amount{
+.partner-amount{
     margin-left: 10%;
     display: block;
     margin-top: -1%;
 }
 
 
-.image{
+.partner-image{
     height: 25%;
     margin-left: 10%;
 }
 
-#Address1{
+#partner-Address1{
     height: 30px;
     width: 80%;
     border: none;
@@ -140,7 +155,7 @@
     box-shadow: 10px 8px 20px 0px rgba(0, 0, 0, 0.314);
 }
 
-#Address2{
+#partner-Address2{
     height: 70px;
     width: 80%;
     font-size: 15px;
@@ -150,12 +165,37 @@
     box-shadow: 10px 8px 20px 0px rgba(0, 0, 0, 0.314);
 }
 
-.allyourreferrals{
+.partner-allyourreferrals{
     margin-top: 10%;
 
 }
 
-.allyourreferrals h3{
+.partner-allyourreferrals h3{
     margin-top: 3%;
     margin-bottom: 3%;
+}
+.partner-allreferrals{
+    margin-top: 12%;
+}
+
+.partner-table{
+    margin-top: 3%;
+    display: flex;
+    gap: 10%;
+    background-color: darkolivegreen;
+    height: 40px;
+    align-items: center;
+    padding-left: 2%;
+    border-radius: 0.2rem;
+}
+
+.partner-none{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(241, 234, 234);
+    width: 100%;
+    height: 40px;
+    border-radius: 0.2rem;
+    box-shadow: 10px 8px 20px 0px rgba(0, 0, 0, 0.314);
 }
