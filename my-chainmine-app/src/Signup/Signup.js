@@ -33,7 +33,7 @@ const Signup = () => {
           </div>
 
           <div className='signupcontinuebtn'>
-          <Link to='/Hompage' style={{ textDecoration: 'none' }}><button> Continue</button></Link>
+          <Link to='/Homepage' style={{ textDecoration: 'none' }}><button> Continue</button></Link>
           </div>
         </form>
 

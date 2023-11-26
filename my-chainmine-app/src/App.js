@@ -4,7 +4,7 @@ import Signup from'./Signup/Signup';
 import Login from './Login page/Login';
 import Forgot from './FORGOT PAGE/Forgot';
 import FirstPage from './FirstPage/FirstPage'
-import Hompage from './Homepage/Homepage'
+import Homepage from './Homepage/Homepage'
 import Pricing from './Pricing/Pricing'
 import Affiliate from './Affiliate page/Affiliate';
 import Insights from './Insights page/Insights';
@@ -27,7 +27,7 @@ function App() {
       <Route element={<FirstPage/>} path='/'/>
       <Route element={<Pricing/>} path='/Pricing'/>
       <Route element={<Forgot/>} path='/Forgot' />
-    <Route element={<Hompage/>} path='/<Hompage'/>
+    <Route element={<Homepage/>} path='/<Homepage'/>
     <Route element={<Terms/>} path='/Terms'/>
     <Route element={<Faqs/>} path='/Faqs'/>
     <Route element={<Affiliate/>} path='/Affiliate'/>
