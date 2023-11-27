@@ -1,5 +1,5 @@
 .UPGRADE{
-    background-color:rgba(200, 232, 226, 0.781);
+    background-color: rgb(202, 237, 202);
     color: black;
     width: 100%;
     margin-left: 20%;
@@ -29,7 +29,7 @@
     align-items: center;
     justify-content: center;
     width: 70%;
-    background-color:rgb(66, 116, 66);
+    background-color: darkslategray;
     height: 90px;
     padding-right: 15%;
     border-radius: 0.5rem;
@@ -152,7 +152,7 @@
     margin-top: 3%;
     display: flex;
     gap: 10%;
-    background-color: darkolivegreen;
+    background-color: darkslategray;
     height: 40px;
     align-items: center;
     padding-left: 2%;

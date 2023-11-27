@@ -86,7 +86,7 @@ const Homepage = () => {
                         <div className='homepage-mined'>
                             <div className='homepage-total'>
                                 <img src='' alt='⚡'/>  
-                                <h2>ToTal Mined</h2>
+                                <h2>Total Mined</h2>
                                 <h2>0.00002328 BTC</h2>
                             </div>
                             <div className='homepage-profit'>

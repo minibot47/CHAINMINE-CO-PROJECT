@@ -1,5 +1,5 @@
 .Partner{
-    background-color:rgba(200, 232, 226, 0.781);
+    background-color: rgb(202, 237, 202);
     color: black;
     width: 100%;
     margin-left: 20%;
@@ -55,11 +55,12 @@
 #partner-option{
     width: 60%;
     height: 35px;
-    background-color: darkolivegreen;
+    background-color: darkslategray;
     color: white;
     border-radius: 0.3rem;
     border: none;
     box-shadow: none;
+    font-size: 20px;
 }
 
 .partner-over{
@@ -182,7 +183,7 @@
     margin-top: 3%;
     display: flex;
     gap: 10%;
-    background-color: darkolivegreen;
+    background-color: darkslategray;
     height: 40px;
     align-items: center;
     padding-left: 2%;

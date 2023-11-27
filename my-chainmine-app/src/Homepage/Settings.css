@@ -1,5 +1,5 @@
 .Settings{
-    background-color:rgba(200, 232, 226, 0.781);
+    background-color: rgb(202, 237, 202);
     color: black;
     width: 100%;
     margin-left: 20%;
@@ -91,7 +91,7 @@
 #setttings-button{
     height: 35px;
     width: 8%;
-    background-color: darkolivegreen;
+    background-color: darkslategray;
     color: white;
     border: 1px solid darkolivegreen;
     border-radius: 0.3rem;
