@@ -13,7 +13,7 @@ export const Settings = () => {
         <div className='setttings-Password'>
             <div className='setttings-current'>
                 <div id='setttings-current'>
-                    <img src='' alt='⚡'/>
+                    <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>
                     <h3>Current password</h3>
                 </div>
                 <input type='password' id='setttings-password' placeholder='Enter Current Password'></input>
@@ -21,7 +21,7 @@ export const Settings = () => {
             </div>
             <div className='setttings-new'>
                 <div id='setttings-new'>
-                    <img src='' alt='⚡'/>
+                    <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>
                     <h3>New password</h3>
                 </div>
                 <input type='password' id='setttings-password' placeholder='Enter Current Password'></input>
@@ -32,7 +32,7 @@ export const Settings = () => {
         <div className='setttings-Password'> 
             <div className='setttings-new'>
                 <div id='setttings-new'>
-                    <img src='' alt='⚡'/>
+                    <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>
                     <h3>Email address</h3>
                 </div>
                 <input type='email' id='setttings-password' defaultValue='Enter Current Email'></input>
@@ -44,14 +44,14 @@ export const Settings = () => {
         <div className='setttings-Password'> 
             <div className='setttings-new'>
                 <div id='setttings-new'>
-                    <img src='' alt='⚡'/>
+                    <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>
                     <h3>Email address</h3>
                 </div>
                 <input type='text' id='setttings-password' placeholder='Add Btc Wallets For Withdrawal'></input>
             </div>
         </div>
         <div className='setttings-button'>
-            <button id='setttings-button'>Save<img src='' alt='⚡'/></button>
+            <button id='setttings-button'>Save<img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/></button>
         </div>
         <div id='setttings-words'>
             <h2>Security settings</h2>
@@ -61,11 +61,11 @@ export const Settings = () => {
         <div className='setttings-bottom12'>
             <div className='setttings-first'>
                 <div id='setttings-bottom12'>
-                    <img src='' alt='⚡'/>
+                    <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>
                     <h4>Add Secret to App</h4>
                 </div>
                 <div className='setttings-bar'>
-                    <img src='' alt='⚡'/>
+                    <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>
                 </div>
 
             </div>
@@ -75,7 +75,7 @@ export const Settings = () => {
             </div>
             <div className='setttings-third'>
                 <div id='setttings-bottom12'>
-                    <img src='' alt='⚡'/>
+                    <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>
                     <h4>Enter your 2FA code</h4>
 
 

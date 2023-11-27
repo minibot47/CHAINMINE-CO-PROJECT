@@ -169,7 +169,17 @@
 
 }
 
+.Settings img{
+    height: 50px;
+}
+.setttings-button img{
+    height: 15px;
+    padding-left: 10px;
+}
 
+.setttings-bar img{
+    height: 150px;
+}
 
 
 

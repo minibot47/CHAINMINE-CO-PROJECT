@@ -200,3 +200,15 @@
     border-radius: 0.2rem;
     box-shadow: 10px 8px 20px 0px rgba(0, 0, 0, 0.314);
 }
+
+.partner-lefttransfer img{
+    height: 50px;
+}
+
+.partner-righttransfer img{
+    height: 50px;
+}
+
+.partner-image img{
+    height: 120px;
+}

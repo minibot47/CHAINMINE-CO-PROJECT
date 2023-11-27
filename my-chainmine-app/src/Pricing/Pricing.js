@@ -16,7 +16,7 @@ const Pricing = () => {
                     <div className='pricing-futureminingleft'>
                         <h2>Amount you want to pay:</h2>
                         <div className='pricing-amount'>
-                            <img src='' alt='⚡'/>
+                            <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>
                             <input type="number" id="pricing-quantity" name="quantity" min="0" max="1" step="0.001" placeholder='0.001'/>
                             <select>
                                 <option>BTC</option>
@@ -133,7 +133,7 @@ const Pricing = () => {
                   </div>
 
                   <div className='pricing-minerRight1'>
-                  <button id='pricing-minersignup1'><img src={process.env.PUBLIC_URL + '/images/logo.pn'} alt='O'/> Sign up</button>
+                  <button id='pricing-minersignup1'><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/> Sign up</button>
 
                   </div>
                 </div>

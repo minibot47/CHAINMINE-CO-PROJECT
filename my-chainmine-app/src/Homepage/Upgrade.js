@@ -10,28 +10,28 @@ const Upgrade = () => {
         <div className='upgrade-totalpower'>
             <div className='upgrade-leftpower'>
                 <div className='upgrade-power'>
-                    <div><img src='' alt='💻'/></div>
+                    <div><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='💻'/></div>
                     <div>
                         <h3>Total power</h3>
                         <h2>1.000 TH/s</h2>
                     </div>
                 </div>
                 <div className='upgrade-power1'>
-                <div><img src='' alt='💻'/></div>
+                <div><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='💻'/></div>
                     <div>
                         <h3>Purchased power</h3>
                         <h2>0.000 KH/s</h2>
                     </div>
                 </div>
                 <div className='upgrade-power1'>
-                <div><img src='' alt='💻'/></div>
+                <div><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='💻'/></div>
                     <div>
                         <h3>Hardware costs</h3>
                         <h2>0.00000000 BTC</h2>
                     </div>
                 </div>
                 <div className='upgrade-power1'>
-                <div><img src='' alt='💻'/></div>
+                <div><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='💻'/></div>
                     <div>
                         <h3>Upgrades</h3>
                         <h2>0</h2>
@@ -56,7 +56,7 @@ const Upgrade = () => {
                     </div>
                 </div>
                 <div className='upgrade-amount'>
-                    <img src='' alt='⚡'/>
+                    <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>
                     <input type="number" id="upgrade-quantity" name="quantity" min="0" max="1" step="0.001" placeholder='0.001'/>
                      <select>
                             <option>BTC</option>
@@ -76,7 +76,7 @@ const Upgrade = () => {
                     <h3>3NDJgLUa5pCiv7qWNAxDdvK1bpf6Rjtn1x</h3>
                 </div>
                 <div className='upgrade-qrcode'>
-                    <img src='' alt='⚡'/>
+                    <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>
                 </div>
                 <div className='upgrade-words'>
                     <h4>

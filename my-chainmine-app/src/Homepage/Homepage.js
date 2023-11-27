@@ -57,12 +57,12 @@ const Homepage = () => {
   <>
       <div className='homepage'> 
         <div className='homepage-left-nav'>
-            <ul>
-                <li onClick={handleToggleVisibility}><img src='' alt='💻'/>Dashboard </li>
-                <li onClick={handleToggleVisibility1}><img src='' alt='⚡'/>Upgrade</li>
-                <li onClick={handleToggleVisibility2}><img src='' alt='⚡'/>Transfer BTC</li>
-                <li onClick={handleToggleVisibility3}><img src='' alt='⚡'/>Partnering</li>
-                <li onClick={handleToggleVisibility4}><img src='' alt='⚡'/>Settings</li>
+            <ul className='homepage-ul'>
+                <li onClick={handleToggleVisibility}><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='💻'/>Dashboard </li>
+                <li onClick={handleToggleVisibility1}><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>Upgrade</li>
+                <li onClick={handleToggleVisibility2}><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>Transfer BTC</li>
+                <li onClick={handleToggleVisibility3}><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>Partnering</li>
+                <li onClick={handleToggleVisibility4}><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>Settings</li>
             </ul>
         </div>
         { isVisible &&         <div className='homepage-right'>
@@ -73,11 +73,11 @@ const Homepage = () => {
                 <h1>Dashboard</h1>
                 <hr/>
                 <div className='homepage-congratulations'>
-                    <img src='' alt='⚡'/>Congratulations! <span>Free 1000 GH/s</span> Have been credited to your account. <span>Send us Positive Feedback Now!</span> <button><img src='' alt='⚡'/> Rate here</button>
+                    <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>Congratulations! <span>Free 1000 GH/s</span> Have been credited to your account. <span>Send us Positive Feedback Now!</span> <button><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/> Rate here</button>
                 </div>
                 <div className='homepage-userinfo'>
-                    <div className='homepage-personalinfo'><img src='' alt='⚡'/><h3>Hello user</h3></div>
-                    <div className='homepage-machineinfo'><img src='' alt='⚡'/><div className='machinewords'><h3>Total Device Power</h3><h3>1.007 TH/s</h3><h3>PURCHASED:0.000 KH/s</h3><h3>REF COMMISSION:     0.000 KH/s</h3></div></div>
+                    <div className='homepage-personalinfo'><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/><h3>Hello user</h3></div>
+                    <div className='homepage-machineinfo'><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/><div className='machinewords'><h3>Total Device Power</h3><h3>1.007 TH/s</h3><h3>PURCHASED:0.000 KH/s</h3><h3>REF COMMISSION:     0.000 KH/s</h3></div></div>
                 </div>
                 <div className='homepage-mid-section'>
                     <h1>Your Bitcoin Minings Overview</h1>
@@ -85,30 +85,30 @@ const Homepage = () => {
                         <div className='homepage-miningleft'>
                         <div className='homepage-mined'>
                             <div className='homepage-total'>
-                                <img src='' alt='⚡'/>  
+                                <img src={process.env.PUBLIC_URL + '/images/logo.png'}alt='⚡'/>  
                                 <h2>Total Mined</h2>
                                 <h2>0.00002328 BTC</h2>
                             </div>
                             <div className='homepage-profit'>
-                                <img src='' alt='⚡'/>  
+                                <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>  
                                 <h3>Hourly profit</h3>
                                 <h2>0.00002328 BTC</h2>
                             </div>
                             <hr/>
                             <div className='homepage-profit'>
-                                <img src='' alt='⚡'/>  
+                                <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>  
                                 <h3>Daily profit</h3>
                                 <h2>0.00002328 BTC</h2>
                             </div>
                             <hr/>
                             <div className='homepage-profit'>
-                                <img src='' alt='⚡'/>  
+                                <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>  
                                 <h3>Weekly profit</h3>
                                 <h2>0.00002328 BTC</h2>
                             </div>
                             <hr/>
                             <div className='homepage-profit'>
-                                <img src='' alt='⚡'/>  
+                                <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>  
                                 <h3>Monthly profit</h3>
                                 <h2>0.00002328 BTC</h2>
                             </div>
@@ -120,15 +120,15 @@ const Homepage = () => {
                         <div className='homepage-miningright'>
                             <h3>Referral link</h3>
                             <div className='homepage-referralinput'>
-                                <img src='' alt='⚡'/>
+                                <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>
                                 <input value={'https://chainmine.org/?ref=aXCyHo23'}></input>
                             </div>
-                            <button><img src='' alt='⚡'/>Partenering</button>
+                            <button><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>Partenering</button>
                             <div className='homepage-referralinput'>
-                                <img src='' alt='⚡'/>
+                                <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>
                                 <input value={'Add Bitcoin Address in Settings'}></input>
                             </div>
-                            <button><img src='' alt='⚡'/>Upgrade</button>
+                            <button><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>Upgrade</button>
                         </div>
                     </div>
 
@@ -142,7 +142,7 @@ const Homepage = () => {
                     <div className='homepage-futureminingleft'>
                         <h2>Amount you want to pay:</h2>
                         <div className='homepage-amount'>
-                            <img src='' alt='⚡'/>
+                            <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>
                             <input type="number" id="homepage-quantity" name="quantity" min="0" max="1" step="0.001" placeholder='0.001'/>
                             <select>
                                 <option>BTC</option>

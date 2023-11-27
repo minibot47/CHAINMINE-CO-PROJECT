@@ -14,7 +14,7 @@ const Transfer = () => {
         <div className='transfer-lefttransfer'>
             <h1>Payout overview</h1>
             <div className='transfer-totalpayout'>
-                <img src='' alt='⚡'/>
+                <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>
                 <div className='transfer-over'>
                     <p>Total payout</p>
                     <p>0.00000000 BTC</p>
@@ -22,7 +22,7 @@ const Transfer = () => {
 
             </div>
             <div className='transfer-totalpayout1'>
-                <img src='' alt='⚡'/>
+                <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>
                 <div className='transfer-over1'>
                     <p>Total payout</p>
                     <p>0.00000000 BTC</p>
@@ -36,7 +36,7 @@ const Transfer = () => {
             <h2>Withdrawal Amount</h2>
 
             <div className='transfer-amount'>
-                <img src='' alt='⚡'/>
+                <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>
                 <input type="number" id="transfer-amount" name="amount" min="0" max="1" step="0.001" placeholder='0.001'/>
                 <select id='transfer-option'>
                     <option>BTC</option>
@@ -54,7 +54,7 @@ const Transfer = () => {
             <div className='transfer-bitcoin'>
                 <h2>Bitcoin receiver address</h2>
                 <div>
-                <img src='' alt='⚡'/>
+                <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>
                 <input type="text" id="transfer-Address" name="Address"  placeholder='ADD BTC WALLET FOR WITHDRAWALS'/>
                 </div>
                 <button id='transfer-send'>Send</button>

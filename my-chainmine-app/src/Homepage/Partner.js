@@ -13,7 +13,7 @@ const Partner = () => {
         <div className='partner-lefttransfer'>
             <h1>Affiliate ad banners & overview</h1>
             <div className='partner-totalpayout'>
-                <img src='' alt='⚡'/>
+                <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>
                 <div className='partner-over'>
                     <p>Ref Commission</p>
                     <p>0.000 KH/s</p>
@@ -21,7 +21,7 @@ const Partner = () => {
 
             </div>
             <div className='partner-totalpayout1'>
-                <img src='' alt='⚡'/>
+                <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>
                 <div className='partner-over1'>
                     <p>Referrals</p>
                     <p>0</p>
@@ -30,7 +30,7 @@ const Partner = () => {
             </div>
             <hr/>
             <div className='partner-bitcoin1'>
-                <img src='' alt='⚡'/>
+                <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>
                 <div id='partner-referral'>
                 <h3>Referral link</h3>
                 <input type="text" id="partner-reflink" name="Address"  Value='https://chainmine.org/?ref=aXCyHo23][img]https://chainmine.org/assets/images/banner/b1.gif'/>
@@ -51,26 +51,26 @@ const Partner = () => {
                 </select>
             </div>
             <div className='partner-image'>
-                <img src='' alt='⚡'/>  
+                <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>  
             </div>
             <div className='partner-bitcoin'>
                 <h3>Banner link</h3>
                 <div>
-                <img src='' alt='⚡'/>
+                <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>
                 <input type="text" id="partner-Address1" name="Address"  Value='https://chainmine.org/assets/images/banner/b1.gif'/>
                 </div>
             </div>
             <div className='partner-bitcoin'>
                 <h3>Website code</h3>
                 <div>
-                <img src='' alt='⚡'/>
+                <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>
                 <input type="text" id="partner-Address2" name="Address"  Value='<a href="https://chainmine.org/?ref=aXCyHo23"><img src="https://chainmine.org/assets/images/banner/b1.gif"></a>'/>
                 </div>
             </div>
             <div className='partner-bitcoin'>
                 <h3>Forum code</h3>
                 <div>
-                <img src='' alt='⚡'/>
+                <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>
                 <input type="text" id="partner-Address2" name="Address"  Value='url=https://chainmine.org/?ref=aXCyHo23][img]https://chainmine.org/assets/images/banner/b1.gif[/img][/url]'/>
                 </div>
             </div>

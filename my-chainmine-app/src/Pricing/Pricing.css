@@ -151,8 +151,8 @@
 
 }
 .pricing-estimate1{
-    width: 80%;
-    margin-left: 5%;
+    width: 65%;
+    margin-left: 6%;
     font-size: 12px;
     display: flex;
     justify-content: space-between;
@@ -184,7 +184,7 @@
 .pricing-section03downtext1{
     text-align: center;
     width: 44%;
-    background-color: aqua;
+    /* background-color: aqua; */
 
 }
 .pricing-ulContainer1{
@@ -214,7 +214,7 @@
 }
 .pricing-section03flex112,.pricing-section03flex21,.pricing-section03flex31{
     height: 35vh;
-    background-color: blue;
+    background-color: white;
     border-radius: 7px;
     width: 200px;
 
@@ -291,4 +291,12 @@
 .pricing-aboutsymbol01,.pricing-aboutsymbol02,.pricing-aboutsymbol03,.pricing-aboutsymbol04{
     text-align: center;
     flex: 1;
+}
+
+.pricing-amount img{
+    height: 50px;
+}
+
+.pricing-minerRight1 img{
+    height: 25px;
 }

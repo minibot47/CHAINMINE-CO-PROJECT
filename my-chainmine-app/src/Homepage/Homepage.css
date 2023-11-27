@@ -107,10 +107,12 @@
     outline: none;
     border: 1px none transparent;
     padding: 8px;
-    width: 15%;
+    width: 12%;
     font-size: 15px;
     cursor: pointer;
     border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
 }
 .homepage-userinfo{
     height: 200px;
@@ -358,3 +360,29 @@
     color: gray;
 }
 
+.homepage-mined img{
+    height: 35%;
+}
+.homepage-miningright img{
+    height: 20px;
+}
+.homepage-amount img{
+    height: 30px;
+}
+
+.homepage-congratulations img{
+    height: 30px;
+}
+
+.homepage-userinfo img{
+    height: 50px;
+}
+.homepage-ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.homepage-ul img{
+    height: 50px;
+
+}

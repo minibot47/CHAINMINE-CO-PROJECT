@@ -150,6 +150,7 @@
 .transfer-over{
     width: 80%;
     
+    
 }
 
 .transfer-totalpayout1{
@@ -200,4 +201,16 @@
     height: 40px;
     border-radius: 0.2rem;
     box-shadow: 10px 8px 20px 0px rgba(0, 0, 0, 0.314);
+}
+
+.transfer-lefttransfer img{
+    height: 50px;
+
+}
+.transfer-amount img{
+    height: 50px;
+}
+
+.transfer-bitcoin img{
+    height: 50px;
 }
