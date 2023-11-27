@@ -4,7 +4,10 @@ import {Link } from 'react-router-dom'
 
 
 
-const Login = () => {
+const Login = ({handleFooterVisibility}) => {
+  const HandleLogin = () => {
+    handleFooterVisibility();
+  };
   return (
     <>
      {/* LOGIN BG IMAGE */}
@@ -31,7 +34,7 @@ const Login = () => {
 
           <div className='loginforgotbtn'>
             <Link to='/Forgot' style={{ textDecoration: 'none' }}><p>Forgot password ?</p></Link>
-            <Link to='/Homepage' style={{ textDecoration: 'none' }}><button > Continue</button></Link>
+            <Link to='/Homepage' style={{ textDecoration: 'none' }}><button onClick={HandleLogin} > Continue</button></Link>
           </div>
         </form>
 

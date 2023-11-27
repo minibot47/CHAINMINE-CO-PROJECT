@@ -31,7 +31,7 @@ function App() {
     <Header handleFooterVisibility1={handleFooterVisibility1}/>
     <Routes>
       <Route element={<Signup handleFooterVisibility={handleFooterVisibility}/>} path='/Signup'/>
-      <Route element={<Login/>} path='/Login' />
+      <Route element={<Login handleFooterVisibility={handleFooterVisibility}/>} path='/Login' />
       <Route element={<FirstPage/>} path='/'/>
       <Route element={<Pricing/>} path='/Pricing'/>
       <Route element={<Forgot/>} path='/Forgot' />
