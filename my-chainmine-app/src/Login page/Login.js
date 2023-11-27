@@ -4,12 +4,7 @@ import {Link } from 'react-router-dom'
 
 
 
-const Login = ({handleToggleVisibility}) => {
-  const HandleLogin = () => {
-    console.log('clicked');
-    handleToggleVisibility();
-  };
-
+const Login = () => {
   return (
     <>
      {/* LOGIN BG IMAGE */}
