@@ -20,7 +20,7 @@ import { useState } from 'react';
 function App() {
   const [showfooter, setShowfooter] = useState(true);
   const handleToggleVisibility = () => {
-    setShowfooter(!showfooter);
+    setShowfooter(false);
 
   }
   return (
