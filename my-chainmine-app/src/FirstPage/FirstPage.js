@@ -1,5 +1,5 @@
 // import './section01';
-import Section01 from './section01';
+import Section01 from './Section01';
 function FirstPage() {
   return (
     <>
