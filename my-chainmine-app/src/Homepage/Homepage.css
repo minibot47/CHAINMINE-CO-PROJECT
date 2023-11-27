@@ -41,7 +41,7 @@
 }
 
 .homepage-right{
-    background-color: rgb(224, 239, 239);
+    background-color: rgb(202, 237, 202);
     width: 80%;
     height: 230vh;
     padding-left: 20%;
@@ -183,7 +183,7 @@
     border-radius: 1rem;
     width: 250px;
     height: 100px;
-    background-color: green;
+    background-color: darkslategray;
     padding-left: 10px;
     padding-top: 5px;
 }
