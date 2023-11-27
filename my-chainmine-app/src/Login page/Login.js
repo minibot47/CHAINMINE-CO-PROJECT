@@ -1,9 +1,15 @@
 import React from 'react'
 import './Login.css'
-import {Link} from 'react-router-dom'
+import {Link } from 'react-router-dom'
 
 
-const Login = () => {
+
+const Login = ({handleToggleVisibility}) => {
+  const HandleLogin = () => {
+    console.log('clicked');
+    handleToggleVisibility();
+  };
+
   return (
     <>
      {/* LOGIN BG IMAGE */}
@@ -30,7 +36,7 @@ const Login = () => {
 
           <div className='loginforgotbtn'>
             <Link to='/Forgot' style={{ textDecoration: 'none' }}><p>Forgot password ?</p></Link>
-            <Link to='/Homepage' style={{ textDecoration: 'none' }}><button> Continue</button></Link>
+            <Link to='/Homepage' style={{ textDecoration: 'none' }}><button > Continue</button></Link>
           </div>
         </form>
 

@@ -10,31 +10,36 @@ import Affiliate from './Affiliate page/Affiliate';
 import Insights from './Insights page/Insights';
 import About from './AboutPage/About';
 import Footer from './Footer/Footer'
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes,} from 'react-router-dom';
 import Faqs from './FAQS/Faqs'
 import Terms from './Terms/Terms'
+import { useState } from 'react';
 
 
 
 function App() {
+  const [showfooter, setShowfooter] = useState(true);
+  const handleToggleVisibility = () => {
+    setShowfooter(!showfooter);
 
+  }
   return (
   <BrowserRouter>
     <Header/>
     <Routes>
-      <Route element={<Signup/>} path='/Signup'/>
-      <Route element={<Login/>} path='/Login'/>
+      <Route element={<Signup handleToggleVisibility={handleToggleVisibility}/>} path='/Signup'/>
+      <Route element={<Login/>} path='/Login' />
       <Route element={<FirstPage/>} path='/'/>
       <Route element={<Pricing/>} path='/Pricing'/>
       <Route element={<Forgot/>} path='/Forgot' />
-    <Route element={<Homepage/>} path='/<Homepage'/>
-    <Route element={<Terms/>} path='/Terms'/>
-    <Route element={<Faqs/>} path='/Faqs'/>
-    <Route element={<Affiliate/>} path='/Affiliate'/>
-    <Route element={<Insights/>} path='/Insights'/>
-    <Route element={<About/>} path='/About'/>
+      <Route element={<Homepage/>} path='/Homepage'/>
+      <Route element={<Terms/>} path='/Terms'/>
+      <Route element={<Faqs/>} path='/Faqs'/>
+      <Route element={<Affiliate/>} path='/Affiliate'/>
+      <Route element={<Insights/>} path='/Insights'/>
+      <Route element={<About/>} path='/About'/>
     </Routes>
-    <Footer/>
+    {showfooter && <Footer/>}
     </BrowserRouter>
   
   )

@@ -6,20 +6,66 @@ import Partner from './Partner'
 import Settings from './Settings'
 
 const Homepage = () => {
+    const [isVisible, setIsVisible] = useState(true);
+    const [isVisible1, setIsVisible1] = useState(false);
+    const [isVisible2, setIsVisible2] = useState(false);
+    const [isVisible3, setIsVisible3] = useState(false);
+    const [isVisible4, setIsVisible4] = useState(false);
 
+
+    const handleToggleVisibility = () => {
+      setIsVisible(true);
+      setIsVisible4(false)
+      setIsVisible3(false)
+      setIsVisible2(false)
+      setIsVisible1(false)
+
+    }
+    const handleToggleVisibility1 = () => {
+        setIsVisible1(true);
+        setIsVisible4(false)
+        setIsVisible3(false)
+        setIsVisible2(false)
+        setIsVisible(false)
+
+    }
+    const handleToggleVisibility2 = () => {
+        setIsVisible2(true);
+        setIsVisible4(false)
+        setIsVisible3(false)
+        setIsVisible(false)
+        setIsVisible1(false)
+
+    }
+    const handleToggleVisibility3 = () => {
+        setIsVisible3(true);
+        setIsVisible4(false)
+        setIsVisible(false)
+        setIsVisible2(false)
+        setIsVisible1(false)
+
+    }
+    const handleToggleVisibility4 = () => {
+        setIsVisible4(true);
+        setIsVisible3(false)
+        setIsVisible2(false)
+        setIsVisible1(false)
+        setIsVisible(false)
+
+    }
   return (
   <>
       <div className='homepage'> 
         <div className='homepage-left-nav'>
             <ul>
-                <li><img src='' alt='💻'/>Dashboard</li>
-                <li><img src='' alt='⚡'/>Upgrade</li>
-                <li><img src='' alt='⚡'/>Transfer BTC</li>
-                <li><img src='' alt='⚡'/>Partnering</li>
-                <li><img src='' alt='⚡'/>Settings</li>
+                <li onClick={handleToggleVisibility}><img src='' alt='💻'/>Dashboard </li>
+                <li onClick={handleToggleVisibility1}><img src='' alt='⚡'/>Upgrade</li>
+                <li onClick={handleToggleVisibility2}><img src='' alt='⚡'/>Transfer BTC</li>
+                <li onClick={handleToggleVisibility3}><img src='' alt='⚡'/>Partnering</li>
+                <li onClick={handleToggleVisibility4}><img src='' alt='⚡'/>Settings</li>
             </ul>
         </div>
-        {/* <div className='homepage-right'>
+        { isVisible &&         <div className='homepage-right'>
             <div className='homepage-top-promotion'>
                 <span>FREE EXTRA</span>hardware power.share your link! <input type='text' value={'https://chainmine.org/?ref=aXCyHo23}'}></input> <button>Learn More</button>
             </div>
@@ -170,11 +216,13 @@ const Homepage = () => {
             <br/> fees. No term limits. Your cloud mining hardware starts automatically and is 
             <br/> always online to mine Bitcoins for you.
             </div>
-        </div> */}
-        {/* <Upgrade/> */}
-        {/* <Transfer/> */}
-        {/* <Partner/> */}
-        {/* <Settings/> */}
+        </div>}
+
+        { isVisible1 &&  <Upgrade/>}
+       { isVisible2 && <Transfer/>}
+        { isVisible3 && <Partner/>}
+        {isVisible4 && <Settings/>}
+        
 
       </div>
 

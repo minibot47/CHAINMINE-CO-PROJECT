@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './Section01.css'
+import './section01.css'
 import {Link} from 'react-router-dom'
 
 

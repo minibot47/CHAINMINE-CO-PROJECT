@@ -2,7 +2,10 @@ import React from 'react'
 import './Signup.css'
 import {Link} from 'react-router-dom'
 
-const Signup = () => {
+const Signup = ({handleToggleVisibility}) => {
+  const HandleLogin = () => {
+    handleToggleVisibility();
+  };
   return (
     <>
     {/* LOGIN BG IMAGE */}
@@ -33,7 +36,7 @@ const Signup = () => {
           </div>
 
           <div className='signupcontinuebtn'>
-          <Link to='/Homepage' style={{ textDecoration: 'none' }}><button> Continue</button></Link>
+          <Link to='/Homepage' style={{ textDecoration: 'none' }}><button onClick={HandleLogin}> Continue</button></Link>
           </div>
         </form>
 
