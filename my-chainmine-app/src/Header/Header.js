@@ -2,7 +2,10 @@ import React from 'react'
 import './Header.css';
 import {Link} from 'react-router-dom'
 
-const Header = () => {
+const Header = ({handleFooterVisibility1}) => {
+    const Handleheader = () => {
+        handleFooterVisibility1();
+      };
   return (
     <header>
         <div className='headerContainer'>
@@ -58,12 +61,12 @@ const Header = () => {
                 {/* NAVIGATION BAR */}
 
                 <div className='headernavigate'>
-                <Link to='/' style={{ textDecoration: 'none' }}><p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Home</p></Link>
-                    <Link to='/Pricing' style={{ textDecoration: 'none' }}><p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Pricing</p></Link>
-                    <Link to='/Affiliate' style={{ textDecoration: 'none' }}><p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Affiliate <span id='freebtc'>Free BTC</span></p></Link>
-                    <Link to='/Insights' style={{ textDecoration: 'none' }}><p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Insights</p></Link>
-                    <Link to='/FAQs' style={{ textDecoration: 'none' }}><p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>FAQs</p></Link>
-                   <Link to='/About' style={{ textDecoration: 'none' }}><p><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>About</p></Link>
+                <Link to='/' style={{ textDecoration: 'none' }}><p onClick={Handleheader}><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Home</p></Link>
+                    <Link to='/Pricing' style={{ textDecoration: 'none' }}><p onClick={Handleheader}><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Pricing</p></Link>
+                    <Link to='/Affiliate' style={{ textDecoration: 'none' }}><p onClick={Handleheader}><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Affiliate <span id='freebtc'>Free BTC</span></p></Link>
+                    <Link to='/Insights' style={{ textDecoration: 'none' }}><p onClick={Handleheader}><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Insights</p></Link>
+                    <Link to='/FAQs' style={{ textDecoration: 'none' }}><p onClick={Handleheader}><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>FAQs</p></Link>
+                   <Link to='/About' style={{ textDecoration: 'none' }}><p onClick={Handleheader}><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>About</p></Link>
 
                 </div>
 

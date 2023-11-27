@@ -19,15 +19,18 @@ import { useState } from 'react';
 
 function App() {
   const [showfooter, setShowfooter] = useState(true);
-  const handleToggleVisibility = () => {
+  const handleFooterVisibility = () => {
     setShowfooter(false);
-
   }
+  const handleFooterVisibility1 = () => {
+    setShowfooter(true);
+  }
+  
   return (
   <BrowserRouter>
-    <Header/>
+    <Header handleFooterVisibility1={handleFooterVisibility1}/>
     <Routes>
-      <Route element={<Signup handleToggleVisibility={handleToggleVisibility}/>} path='/Signup'/>
+      <Route element={<Signup handleFooterVisibility={handleFooterVisibility}/>} path='/Signup'/>
       <Route element={<Login/>} path='/Login' />
       <Route element={<FirstPage/>} path='/'/>
       <Route element={<Pricing/>} path='/Pricing'/>

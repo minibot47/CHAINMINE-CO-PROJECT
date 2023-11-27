@@ -2,9 +2,9 @@ import React from 'react'
 import './Signup.css'
 import {Link} from 'react-router-dom'
 
-const Signup = ({handleToggleVisibility}) => {
+const Signup = ({handleFooterVisibility}) => {
   const HandleLogin = () => {
-    handleToggleVisibility();
+    handleFooterVisibility();
   };
   return (
     <>
