@@ -1,8 +1,9 @@
 .Faqs{
-    background-color: rgb(202, 237, 202);
+    background: rgb(159,224,185);
     width: 100%;
-    height: 160vh;
-    padding-top: 7.6%;
+    height: 100%;
+    padding-top: 8%;
+    padding-bottom: 10%;
     
 }  
 
@@ -27,7 +28,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    margin: 1%;
+    margin: 0.5%;
     margin-top: 8%;
     gap: 1rem;
 }
