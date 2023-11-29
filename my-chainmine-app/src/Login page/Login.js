@@ -9,7 +9,7 @@ const Login = ({handleFooterVisibility}) => {
     handleFooterVisibility();
   };
   return (
-    <>
+    <div className='loginBigContainer'>
      {/* LOGIN BG IMAGE */}
 
      <div className='loginbg'>
@@ -51,8 +51,11 @@ const Login = ({handleFooterVisibility}) => {
      </div>
       </div>
      </div>
+     <div className='loginSmallContainer'>
 
-    </>
+</div>
+
+    </div>
   )
 }
 

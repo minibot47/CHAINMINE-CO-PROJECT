@@ -1,7 +1,5 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-color: rgb(201, 253, 235);
+.signupBigContainer{
+    background-color: rgb(196, 241, 225);
 }
 .signupbg{
     height: 40vh;
@@ -32,7 +30,6 @@ body{
 }
 .signupformContent{
     margin-top: 100px;
-    margin-bottom: 130px;
     width: 28%;
     padding: 20px;
 }
@@ -101,4 +98,8 @@ body{
     font-size: .8rem;
     text-align: center;
     color: grey;
+}
+.signupSmallContainer{
+    height: 130px;
+
 }

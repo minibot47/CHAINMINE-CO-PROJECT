@@ -3,7 +3,7 @@ import './About.css'
 import {Link} from 'react-router-dom'
 const About = () => {
   return (
-   <>
+   <div className='aboutBigContainer'>
     {/* LOGIN BG IMAGE */}
 
     <div className='aboutbg'>
@@ -104,7 +104,10 @@ const About = () => {
             </div>
         </div>
     </div>
-   </>
+    <div className='aboutSmallContainer'>
+
+    </div>
+   </div>
   )
 }
 

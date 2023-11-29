@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom'
 
 const Section01 = () => {
   return (
-    <>
+    <div className='section01BigContainer'>
     <div className='section01Container'>
         <div className='section01Content'>
 
@@ -215,12 +215,12 @@ const Section01 = () => {
 
       </div>
     </div>
+    <div className='section01SmallContainer'>
+
+    </div>
 
 
-
-
-
-    </>
+    </div>
   )
 }
 

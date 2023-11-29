@@ -1,6 +1,5 @@
-body{
-    margin: 0;
-    padding: 0;
+.insightsBigContainer{
+    background-color: rgb(201, 253, 235);
 }
 .insightsbg{
     height: 40vh;
@@ -27,7 +26,6 @@ body{
     width: 100%;
     justify-content: center;
     margin-top: 110px;
-    margin-bottom: 110px;
 }
 
 .insightswithdrawalContainer{
@@ -93,4 +91,7 @@ body{
     margin-top: 30px;
     color: grey;
     font-style: italic;
+}
+.insightsSmallContainer{
+    height: 110px;
 }

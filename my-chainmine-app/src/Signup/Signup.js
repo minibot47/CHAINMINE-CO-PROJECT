@@ -7,7 +7,7 @@ const Signup = ({handleFooterVisibility}) => {
     handleFooterVisibility();
   };
   return (
-    <>
+    <div className='signupBigContainer'>
     {/* LOGIN BG IMAGE */}
 
     <div className='signupbg'>
@@ -49,9 +49,12 @@ const Signup = ({handleFooterVisibility}) => {
      </div>
       </div>
      </div>
+     <div className='signupSmallContainer'>
+
+</div>
 
 
-    </>
+    </div>
     
   )
 }

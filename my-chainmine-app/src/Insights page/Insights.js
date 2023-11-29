@@ -3,7 +3,7 @@ import './Insights.css';
 
 const Insights = () => {
   return (
-    <>
+    < div className='insightsBigContainer'>
 
     {/* INSIGHTS BG IMAGE */}
 
@@ -222,7 +222,10 @@ const Insights = () => {
 
         </div>
     </div>
-    </>
+    <div className='insightsSmallContainer'>
+
+</div>
+    </div>
   )
 }
 
