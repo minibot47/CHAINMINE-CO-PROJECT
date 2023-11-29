@@ -1,6 +1,4 @@
-body{
-    margin: 0;
-    padding: 0;
+.affiliateBigContainer{
     background-color: rgb(201, 253, 235);   
     
 }
@@ -97,7 +95,6 @@ body{
 
 .affiliaterefferalSystem{
     margin-top: 60px;
-    margin-bottom: 130px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -175,3 +172,6 @@ body{
 
 }
 
+.affiliateSmallContainer{
+    height: 130px;
+}

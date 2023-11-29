@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 
 const Forgot =   () => {
   return (
-    <>
+    <div className='forgotBigContainer'>
      {/* forgot BG IMAGE */}
 
      <div className='forgotbg'>
@@ -30,8 +30,11 @@ const Forgot =   () => {
         </form>
       </div>
      </div>
+     <div className='forgotSmallContainer'>
 
-    </>
+</div>
+
+    </div>
   )
 }
 

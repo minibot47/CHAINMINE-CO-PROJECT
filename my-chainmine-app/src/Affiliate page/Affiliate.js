@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 
 const Affiliate = () => {
   return (
-    <>
+    <div className='affiliateBigContainer'>
         {/* AFFILIATE BG IMAGE */}
 
         <div className='affiliatebg'>
@@ -77,7 +77,10 @@ const Affiliate = () => {
             </div>
 
         </div>
-    </>
+        <div className='affiliateSmallContainer'>
+
+        </div>
+    </div>
   )
 }
 

@@ -1,7 +1,5 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-color: rgb(201, 253, 235);
+.forgotBigContainer{
+    background-color: rgb(0, 66, 43);
 }
 .forgotbg{
     height: 40vh;
@@ -28,8 +26,7 @@ body{
     align-items: center;
 }
 .forgotformContent{
-    margin-top: 90px;
-    margin-bottom: 100px;
+    margin-top: 100px;
     width: 24%;
     padding: 20px;
 }
@@ -106,6 +103,7 @@ body{
     color: grey;
     margin-bottom: 10px;
     line-height: 1rem;
-  
-
+}
+.forgotSmallContainer{
+    height: 110px;
 }
