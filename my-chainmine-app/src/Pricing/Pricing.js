@@ -1,7 +1,39 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Pricing.css'
 
 const Pricing = () => {
+    const [myNumber, setMyNumber] = useState(0);
+    const [originalValue, setOriginalValue] = useState(3.670);
+    const [increasedValue, setIncreasedValue] = useState(0.00010900);
+    const [percent,setPercent] = useState(0.34)
+    const [percent1,setPercent1] = useState(8.18)
+    const [percent2,setPercent2] = useState(57.27)
+    const [percent3,setPercent3] = useState(245.46)
+    const [percent4,setPercent4] = useState(2986.4)
+    const [amount,setAmount] = useState(0.00000136)
+    const [amount1,setAmount1] = useState(0.00003273 )
+    const [amount2,setAmount2] = useState(0.00022909)
+    const [amount3,setAmount3] = useState(0.00098183)
+    const [amount4,setAmount4] = useState(0.01194559)
+    const [amount5,setAmount5] = useState(12)
+  
+    const handleInputChange = (e) => {
+      const newValue = parseFloat(e.target.value, 10);
+      setMyNumber(newValue);
+      setOriginalValue((newValue * 9175).toFixed(2));
+      setIncreasedValue((newValue / 3.66972477).toFixed(7)); // or any other operation based on your requirements
+      setPercent(newValue * 850)
+      setPercent1(newValue * 20450)
+      setPercent2(newValue * 143175)
+      setPercent3(newValue * 613650)
+      setPercent4(newValue * 7466000)
+      setAmount((newValue / 294.117647).toFixed(7))
+      setAmount1((newValue / 12.2212038).toFixed(7))
+      setAmount2((newValue / 1.74603867).toFixed(7))
+      setAmount3((newValue / 0.4074025).toFixed(7))
+      setAmount4((newValue / 0.03348516).toFixed(7))
+      setAmount5(newValue * 30000)
+    };
   return (
     <div className='Pricing'>
         <div className='pricing-top-image'>
@@ -17,7 +49,7 @@ const Pricing = () => {
                         <h2>Amount you want to pay:</h2>
                         <div className='pricing-amount'>
                             <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='⚡'/>
-                            <input type="number" id="pricing-quantity" name="quantity" min="0" max="1" step="0.001" placeholder='0.001'/>
+                            <input type="text" id="homepage-quantity" name="quantity"  defaultValue='0.0004' onChange={handleInputChange}/>
                             <select>
                                 <option>BTC</option>
                                 <option>USD</option>
@@ -29,11 +61,11 @@ const Pricing = () => {
                         </div>
                         <div className='pricing-divide'>
                             <h2>MINER HASHRATE:</h2>
-                            <h2>12.845 TH/s</h2>
+                            <h2>{originalValue} TH/s</h2>
                         </div>
                         <div className='pricing-divide'>
                             <h3>UNIT PRICE:</h3>
-                            <h3>0.00010899 BTC</h3>
+                            <h3>{increasedValue} BTC</h3>
                         </div>
                         <hr/>
                         <div className='pricing-divide'>
@@ -57,28 +89,26 @@ const Pricing = () => {
                                 
                             </div>
                             <div className='pricing-estimate'>  
-                                <h3>0.34%</h3>
-                                <h3>8.18%</h3>
-                                <h3>57.27%</h3>
-                                <h3>245.46%</h3>
-                                <h3>2986.43%</h3>
-
+                                <h3>{percent}%</h3>
+                                <h3>{percent1}%</h3>
+                                <h3>{percent2}%</h3>
+                                <h3>{percent3}%</h3>
+                                <h3>{percent4}%</h3>
                                 
                             </div>
                             <div className='pricing-estimate'>
-                                <h3>0.04180999 BTC</h3>
-                                <h3>0.04180999 BTC</h3>
-                                <h3>0.04180999 BTC</h3>
-                                <h3>0.04180999 BTC</h3>
-                                <h3>0.04180999 BTC</h3>
+                                <h3>{amount} BTC</h3>
+                                <h3>{amount1} BTC</h3>
+                                <h3>{amount2} BTC</h3>
+                                <h3>{amount3} BTC</h3>
+                                <h3>{amount4} BTC</h3>
                             </div>
-                            
                         </div>
                         <hr/>
 
                         <div className='pricing-estimate1'> 
                             <h3>Estimate:</h3>
-                            <h3>~ 12 days</h3>
+                            <h3>~{amount5} days</h3>
                         </div>
                     </div>
                 </div>
