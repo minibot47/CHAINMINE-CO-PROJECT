@@ -2,9 +2,63 @@ import React from 'react'
 
 import './Section01.css'
 import {Link} from 'react-router-dom'
+import { useEffect } from 'react'
 
 
 const Section01 = () => {
+  
+
+
+  const TextRotator = () => {
+    const texts = [
+      {
+        heading1: 'Title 1',
+        heading5: 'Subtitle 1',
+        paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      },
+      {
+        heading1: 'Title 2',
+        heading5: 'Subtitle 2',
+        paragraph: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      },
+      {
+        heading1: 'Title 3',
+        heading5: 'Subtitle 3',
+        paragraph: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.',
+      },
+    ];
+
+    const [currentTextIndex, setCurrentTextIndex] = useState(0);
+
+    useEffect(() => {
+      // Function to rotate through texts
+      const rotateText = () => {
+        setCurrentTextIndex((prevIndex) => (prevIndex + 1) % texts.length);
+      };
+
+      // Set a timeout to call the rotateText function every 3 seconds
+      const intervalId = setInterval(rotateText, 3000);
+
+      // Clean up the interval to avoid memory leaks
+      return () => clearInterval(intervalId);
+    }, [texts.length]); // Re-run the effect if the length of the texts array changes
+
+    const currentText = texts[currentTextIndex];
+
+    return (
+      <div>
+        <h1>{currentText.heading1}</h1>
+        <h5>{currentText.heading5}</h5>
+        <p>{currentText.paragraph}</p>
+      </div>
+    );
+  };
+
+
+
+
+
+
   return (
     <div className='section01BigContainer'>
     <div className='section01Container'>
