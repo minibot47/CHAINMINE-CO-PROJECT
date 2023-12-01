@@ -1,65 +1,49 @@
-import React from 'react'
-
+import React, { useState, useEffect } from 'react'
 import './Section01.css'
 import {Link} from 'react-router-dom'
-import { useEffect } from 'react'
+
 
 
 const Section01 = () => {
+
+  const [currentTextIndex, setCurrentTextIndex] = useState(0);
+
+  const texts = [
+    {
+      paragraph1: 'Mining experience without limits',
+      heading2: 'Up to 12% daily earnings',
+      paragraph2: 'Mine bitcoins without fees or term limits',
+    },
+    {
+      paragraph1: 'Simple. Secure. Super Fast.',
+      heading2: 'Mine Your Bitcoins',
+      paragraph2: 'Join 454043 customers and start mining today',
+    },
+    {
+      paragraph1: 'Free sign up bonus',
+      heading2: 'Free 1 TH/s miner power',
+      paragraph2: 'Sign up today and get 1000 GH/s for free',
+    },
+  ]
+
+  useEffect(() => {
+    // Function to rotate through texts
+    const rotateText = () => {
+      setCurrentTextIndex((prevIndex) => (prevIndex + 1) % texts.length);
+    };
+
+    const intervalId = setInterval(rotateText, 3000);
+
+    return () => clearInterval(intervalId);
+  }, [texts.length]);
+
+  const currentText = texts[currentTextIndex];
+
+    
+
   
 
-
-  const TextRotator = () => {
-    const texts = [
-      {
-        heading1: 'Title 1',
-        heading5: 'Subtitle 1',
-        paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      },
-      {
-        heading1: 'Title 2',
-        heading5: 'Subtitle 2',
-        paragraph: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      },
-      {
-        heading1: 'Title 3',
-        heading5: 'Subtitle 3',
-        paragraph: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.',
-      },
-    ];
-
-    const [currentTextIndex, setCurrentTextIndex] = useState(0);
-
-    useEffect(() => {
-      // Function to rotate through texts
-      const rotateText = () => {
-        setCurrentTextIndex((prevIndex) => (prevIndex + 1) % texts.length);
-      };
-
-      // Set a timeout to call the rotateText function every 3 seconds
-      const intervalId = setInterval(rotateText, 3000);
-
-      // Clean up the interval to avoid memory leaks
-      return () => clearInterval(intervalId);
-    }, [texts.length]); // Re-run the effect if the length of the texts array changes
-
-    const currentText = texts[currentTextIndex];
-
-    return (
-      <div>
-        <h1>{currentText.heading1}</h1>
-        <h5>{currentText.heading5}</h5>
-        <p>{currentText.paragraph}</p>
-      </div>
-    );
-  };
-
-
-
-
-
-
-  return (
+return (
     <div className='section01BigContainer'>
     <div className='section01Container'>
         <div className='section01Content'>
@@ -70,13 +54,13 @@ const Section01 = () => {
 
             {/* TEXT */}
             <div className='section01Text'>
-                <p>Mining experience without limits</p>
-                <h2>Up to<span>12%</span> daily earnings</h2>
-                <p>Mine bitcoins without <span>fees</span> or <span>term limits</span></p>
+                <p>{currentText.paragraph1}</p>
+                <h2>{currentText.heading2}</h2>
+                <p>{currentText.paragraph2}</p>
             </div>
 
             <div className='section01Checkbox'>
-                <input type='checkbox'/>
+                <input type='checkbox' />
                 <input type='checkbox'/>
                 <input type='checkbox'/>
             </div>
@@ -277,5 +261,4 @@ const Section01 = () => {
     </div>
   )
 }
-
 export default Section01

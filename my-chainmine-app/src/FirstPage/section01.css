@@ -19,6 +19,9 @@
     text-align: center;
     width: 95%;
 }
+.section01Text{
+    text-align: center;
+}
 .section01Content p{
     font-size: 1.3rem;
     margin: 0;
@@ -28,7 +31,7 @@
 .section01Content h2{
     font-size: 4rem;
     margin: 0;
-    max-width: 90%;
+    max-width: 700px;
     color: white;
     line-height: 4.5rem;
     margin-top: 20px;
