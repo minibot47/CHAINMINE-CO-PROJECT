@@ -81,7 +81,7 @@ header{
     display: flex;
     gap: 1.5rem;
     cursor: pointer;
-    margin-left: -120px;
+    margin-left: -50px;
 }
 .headernavigate p:hover{
     background-color: rgba(25, 202, 158, 0.178);
@@ -111,6 +111,7 @@ header{
     display: flex;
     gap: 1.5rem;
     align-items: center;
+    margin-right: -120px;
 
 
 }
@@ -125,12 +126,12 @@ header{
 
 }
 .headersignUpIn button{
-    padding: 7px 13px;
+    padding: 7px 11px;
     width: 130px;
     border-radius: 3.5px;
     border: none;
     cursor: pointer;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 #headersignin{
@@ -140,4 +141,77 @@ header{
 #headersignup{
     background-color: rgb(25, 202, 158);
     color: rgb(0,67,70);
+}
+.headerThirdLayer{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.headerthirdContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+    margin-bottom: 10px;
+}
+.headerthirdsignupin button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerthirdsignupin img{
+
+    height: 30px;
+
+}
+.headerthirdsignupin button{
+    padding: 3px 11px;
+    width: 150px;
+    border-radius: 3.5px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#headerthirdsignin{
+    background-color: rgb(0,67,70);
+    color: white;
+}
+#headerthirdsignup{
+    background-color: rgb(25, 202, 158);
+    color: rgb(0,67,70);
+}
+.headerburgermenu img {
+    display: none;
+}
+.headerthirdnavigate{
+    margin-right: 10px;
+}
+.headerthirdnavigate p:hover{
+    background-color: rgba(25, 202, 158, 0.178);
+    border-radius: 3px;
+
+}
+.headerthirdnavigate p{
+    display: flex;
+    align-items: center;
+}
+.headerthirdnavigate img{
+    height: 30px;
+
+}
+@media screen and (max-width: 1250px){
+    .headernavigate, .headersignUpIn{
+        display: none;
+    }
+    .headerburgermenu img {
+        height: 25px;
+        padding: 10px;
+        display: flex;
+    }
+
+}
+@media screen and (max-width: 1023px){
+    .headerstatistics{
+        display: none;
+    }
 }

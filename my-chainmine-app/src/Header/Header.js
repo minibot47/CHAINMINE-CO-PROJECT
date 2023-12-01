@@ -1,8 +1,14 @@
 import React from 'react'
 import './Header.css';
 import {Link} from 'react-router-dom'
+import { useState } from 'react';
 
 const Header = ({handleFooterVisibility1}) => {
+
+    const[openMenu, setopenMenu] = useState(false);
+    const toggleBtn = () =>{
+        setopenMenu(!openMenu)
+    }
     const Handleheader = () => {
         handleFooterVisibility1();
       };
@@ -78,11 +84,34 @@ const Header = ({handleFooterVisibility1}) => {
 
                    <Link to='/Signup' style={{ textDecoration: 'none' }}> <button id='headersignup'><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/> Sign up</button> </Link>
                 </div>
-
-
+                <div className='headerburgermenu'>
+                    <img onClick={toggleBtn} src='/images/menu.png' alt='menu' />
+                </div>
             </div>
+
+
+            { openMenu && <div className='headerThirdLayer'>
+                <div className='headerthirdContainer'>
+                    <div className='headerthirdsignupin'>
+                    <Link to='/Login' style={{ textDecoration: 'none' }}><button id='headerthirdsignin'><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/> Sign in </button></Link>
+                    <Link to='/Signup' style={{ textDecoration: 'none' }}> <button id='headerthirdsignup'><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/> Sign up</button> </Link>
+                    </div>
+
+                    <div className='headerthirdnavigate'>
+                    <Link to='/' style={{ textDecoration: 'none' }}><p onClick={Handleheader}><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Home</p></Link>
+                    <Link to='/Pricing' style={{ textDecoration: 'none' }}><p onClick={Handleheader}><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Pricing</p></Link>
+                    <Link to='/Affiliate' style={{ textDecoration: 'none' }}><p onClick={Handleheader}><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Affiliate </p></Link>
+                    <Link to='/Insights' style={{ textDecoration: 'none' }}><p onClick={Handleheader}><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>Insights</p></Link>
+                    <Link to='/FAQs' style={{ textDecoration: 'none' }}><p onClick={Handleheader}><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>FAQs</p></Link>
+                   <Link to='/About' style={{ textDecoration: 'none' }}><p onClick={Handleheader}><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt='O'/>About</p></Link>
+
+                    </div>
+                </div>
+
+            </div>}
+
         </div>
-    </header>
+    </header>   
   )
 }
 
