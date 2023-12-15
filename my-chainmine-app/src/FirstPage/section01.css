@@ -1,9 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
 .section01BigContainer{
     background-color: rgb(201, 253, 235);
+    width: 100%;
+    background-size: cover;
 }
 .section01Container{
     background-color: rgb(0,67,70);
-    width: 100%;
+    /* width: 100%; */
     height: 98vh;
     display: flex;
     justify-content: center;
@@ -45,13 +53,18 @@
 }
 
 .section01Checkbox input{
-    transform: scale(2);
-}
+    transform: scale(1.5);
 
+}
+.section02ButtonContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .section02Button{
     display: flex;
     justify-content: center;
-    gap: 1.5rem;
+    gap: 0.3rem;
 }
 .section02Button img{
     height: 20px;
@@ -59,7 +72,7 @@
 
 .section02Button button{
     padding: 9px 18px;
-    width: 160px;
+    width: 180px;
     border-radius: 3.5px;
     border: none;
     cursor: pointer;
@@ -106,7 +119,6 @@
     margin-top: 80px;
     display: flex;
     justify-content: space-around;
-    /* background-color: aqua; */
     margin-bottom: 100px;
 }
 .section02Flex01 img{
@@ -144,11 +156,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 70%;
+    width: 1000px;
+    margin: 0 12px;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    padding: 8px 0;
-    height: 35vh;
+    padding: 40px 0;
     border: 4px dashed yellow;
     filter: drop-shadow(0px 4px 9px rgb(138, 136, 136));
 }
@@ -157,13 +169,10 @@
     align-items: center;
     justify-content: center;
     width: 85%;
-    
-    /* background-color: cornflowerblue; */
-
 }
 .section02minerLeft{
     color: rgb(0,67,70);
-    flex: 2;
+    flex: 4;
 
 }
 .section02minerLeft p{
@@ -182,13 +191,13 @@
 }
 .section02minerRight button{
     padding: 9px 18px;
-    width: 170px;
+    width: 190px;
     border-radius: 3.5px;
     border: none;
     cursor: pointer;
     font-size: 1rem;
     display: flex;
-    margin-left: 89px;
+    margin-left: 30px;
     align-items: center;
     justify-content: center;
 }
@@ -210,7 +219,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 65%;
+    width: 800px;
 }
 .section02symbolContent img{
     height: 100px;
@@ -232,6 +241,7 @@
     justify-content: center;
     align-items: center;
     gap: .5rem;
+    text-align: center;
 
 }
 .section02linerContent button{
@@ -270,15 +280,14 @@
 
 }
 .section03up{
-    width: 100%;
-    /* background-color: rgb(0, 255, 179); */
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 4rem;
 }
 .section03left{
-    width: 44%; 
+    width: 44%;
+
 }
 .section03leftContent{
     display: flex;
@@ -298,7 +307,7 @@
     text-align: left;
 
 }
-.section03rightContent, h5, h1, p{
+.section03rightContent, h4, h1, p{
     margin: 0;
     color: rgb(0,67,70);
     
@@ -333,7 +342,7 @@
     width: 44%;
 
 }
-.section03downtext h5, h1{
+.section03downtext h3, h1{
 
     color: rgb(0,67,70);
 
@@ -377,4 +386,131 @@
 }
 .section01SmallContainer{
     height: 120px;
+}
+@media screen and (max-width: 1023px){
+    .section01Container{
+        align-items: end;
+    }
+    .section01Content{
+        flex-direction: column;
+        justify-content: space-around;
+       height: 400px;
+       width: 85%;
+       align-items: center;
+       margin-bottom: 25px;
+    }
+    .section01Text h2{
+        font-size: 3rem;
+        margin: 0;
+    }
+    .section01Text p{
+        margin: 0;
+    }
+    .section01Checkbox{
+        flex-direction: row;
+        gap: .5rem;
+
+    }
+    .section02Flex01{
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+
+    }
+    .section02flex011{
+        width: 500px;
+    }
+    .section02flex012{
+        width: 500px;
+    }
+    .section02flex013{
+        width: 500px;
+    }
+    .section02linerContent{
+        flex-direction: column;
+        padding-top: 15px;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        background-size: contain;
+    }
+
+}
+@media screen and (max-width:640px){
+    .section01Text h2{
+        font-size: 1.8rem;
+    }
+    .section02flex011{
+        width: 330px;
+    }
+    .section02flex012{
+        width: 330px;
+    }
+    .section02flex013{
+        width: 330px;
+    }
+    .section01BigContainer{
+        background-size: cover;
+    }
+    body{
+        background-size: contain;
+    }
+
+}
+@media screen and (max-width:768px){
+    .section02minerContent{
+        padding: 15px 0;
+    }
+    .section02minerBox{
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 1rem;
+    }
+    .section02minerRight button{
+        margin-left: 0;
+    }
+    .section03flex{
+        flex-direction: column;
+        width: 100%;
+        background-color: red;
+    }
+    .section03flex1,.section03flex2,.section03flex3{
+        width: 800px;
+        height: 50px;
+        background-color: blue;
+    }
+    .section01SmallContainer{
+        height: 15px;
+    }
+}
+@media screen and (max-width:1250px){
+    .section03up{
+        flex-direction: column;
+        margin: 12px;
+    }
+    .section03right{
+        width: 550px;
+        
+    }
+    .section03down{
+        flex-direction: column;
+    
+    }
+    .section03downtext{
+        width: 550px;
+    
+    }
+    .section03flex{
+        width: 100%;
+    }
+    .section03flex1,.section03flex2,.section03flex3{
+        height: 35vh;
+        width: 300px;
+
+    
+    }
 }

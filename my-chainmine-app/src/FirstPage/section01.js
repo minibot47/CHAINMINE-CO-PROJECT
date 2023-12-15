@@ -60,7 +60,7 @@ return (
             </div>
 
             <div className='section01Checkbox'>
-                <input type='checkbox' />
+                <input type='checkbox'/>
                 <input type='checkbox'/>
                 <input type='checkbox'/>
             </div>
@@ -74,9 +74,12 @@ return (
         <div className='section02Content'>
 
            {/* LOGIN && START NOW */}
-            <div className='section02Button'>
-            <Link to='/Login' style={{ textDecoration: 'none' }}><button id='section02login'> <img src='/images/logo.png' alt='O'/> Log in</button></Link>
+            <div className='section02ButtonContainer'>
+              <div className='section02Button'>
+              <Link to='/Login' style={{ textDecoration: 'none' }}><button id='section02login'> <img src='/images/logo.png' alt='O'/> Log in</button></Link>
             <Link to='/Signup' style={{ textDecoration: 'none' }}><button id='secton02startnow'> <img src='/images/logo.png' alt='O'/> Start now</button></Link>
+              </div>
+
             </div>
 
             {/* REVIEW */}
@@ -202,7 +205,7 @@ return (
           <div className='section03right'>
             <div className='section03rightContainer'>
                 <div className='section03rightContent'>
-                  <h5>Maximum control, just a click away</h5>
+                  <h4>Maximum control, just a click away</h4>
                   <h1>Manage <span style={{color:'rgb(25, 202, 158)'}}>your</span> Cloud Miner</h1>
                   <p>See live stats, manage and upgrade your Bitcoin Cloud 
                     miners at any time in your personal dashboard. Calculate
@@ -221,7 +224,7 @@ return (
         </div>
         <div className='section03down'>
           <div className='section03downtext'>
-            <h5>Bitcoin cloud mining perfected</h5>
+            <h3>Bitcoin cloud mining perfected</h3>
             <h1>Mine <span style={{color:'rgb(25, 202, 158)'}}>your</span> own Bitcoins today</h1>
             <div className='section03ulContainer'>
               <ul>
